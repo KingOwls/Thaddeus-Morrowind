@@ -1,0 +1,17 @@
+name: CI
+on:
+  pull_request:
+  push:
+    branches: [ "main", "dev" ]
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install deps
+        run: echo           python -m pip install --upgrade pip && echo           pip install pytest discord.py python-dotenv
+      - name: Run tests
+        run: pytest -q
