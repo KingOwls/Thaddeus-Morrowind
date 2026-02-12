@@ -1,0 +1,32 @@
+﻿{
+  "schema_version": 1,
+  "meta": {
+    "type": "artefactos",
+    "slots": ["caliz", "moneda", "arma_artefacto", "baston"],
+    "regions": ["Arcano", "Bestia", "Costa", "Montaña", "Desierto", "Umbra"]
+  },
+  "items": {
+    "art_caliz_001": {
+      "id": "art_caliz_001",
+      "nombre": "Cáliz Vacío",
+      "descripcion": "Artefacto simple con atributos básicos.",
+      "tipo": "Artefacto",
+      "subtipos": [],
+      "rareza": 1,
+      "region": "Arcano",
+      "profesiones": ["Alquimista"],
+      "tags": ["soporte"],
+      "stack": { "apilable": false, "max_stack": 1 },
+      "trade": { "vendible": true, "precio_base": 80 },
+      "artefacto": {
+        "slot": "caliz",
+        "atributo_principal": { "estadistica": "vida", "tipo": "plano", "valor": 25 },
+        "atributos_secundarios": [
+          { "estadistica": "ataque", "tipo": "plano", "valor": 2 },
+          { "estadistica": "probabilidad_critica", "tipo": "porcentaje", "valor": 0.01 },
+          { "estadistica": "evasion", "tipo": "porcentaje", "valor": 0.02 }
+        ]
+      }
+    }
+  }
+}

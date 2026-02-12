@@ -34,6 +34,11 @@ STAFF_ROLE_NAMES = {"Staff", "Admin", "GM", "Moderador"}
 def _ensure_dirs() -> None:
     os.makedirs(USERS_DIR, exist_ok=True)
 
+def _can_create_more(root: Dict[str, Any]) -> Tuple[bool, str]:
+    current = len(root.get("personajes", {}))
+    if current >= 4:
+        return False, "🚫 Este usuario ya tiene el máximo de 4 personajes."
+    return True, ""
 
 def _read_json(path: str) -> Any:
     if not os.path.exists(path):
@@ -272,6 +277,11 @@ def _new_character(nombre: str, apodo: str, rol: str, profesion: str, nacion: st
             "nacion": {"nombre": nacion, "nivel": 0, "experiencia": 0},
         },
         "inventario": [],
+        "dinero": {
+            "efectivo": 0,
+            "cuenta": 0,
+        },
+
         # meta opcional para depurar
         "meta": {
             "rol_key": role_def.get("nombre", rol),
@@ -659,7 +669,6 @@ class CreateTreeButtonsView(discord.ui.View):
 class PersonajeCog(commands.Cog):
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-
     # ---------- CRUD ----------
     def create_character_for_user(
         self,
@@ -713,6 +722,12 @@ class PersonajeCog(commands.Cog):
         rol = trees.get("rol", {})
         prof = trees.get("profesion", {})
         nac = trees.get("nacion", {})
+        money = ch.get("dinero", {})
+        ef = int(money.get("efectivo", 0))
+        cu = int(money.get("cuenta", 0))
+        tot = ef + cu
+        e.add_field(name="💰 Dinero", value=f"Efectivo: **{ef}**\nCuenta: **{cu}**\nTotal: **{tot}**", inline=False)
+
 
         e = discord.Embed(title=f"📌 {ch.get('nombre', nombre)} ({ch.get('apodo', '-')})")
         e.add_field(name="Nivel", value=str(ch.get("nivel", 1)), inline=True)
@@ -764,7 +779,7 @@ class PersonajeCog(commands.Cog):
             )
             return
         await interaction.response.send_modal(CreateCharacterModal(self))
-
+    
     @pj.command(name="ver", description="Ver tu personaje (basica o estadisticas).")
     @app_commands.describe(vista="basica | estadisticas", nombre="Nombre del personaje (opcional)")
     async def pj_ver(self, interaction: discord.Interaction, vista: str, nombre: Optional[str] = None):
@@ -979,6 +994,48 @@ class PersonajeCog(commands.Cog):
         ch["experiencia"] = max(0, int(ch.get("experiencia", 0)) + int(xp))
         _save_user(user.id, data)
         await interaction.response.send_message(f"✅ XP de **{nombre_personaje}** ahora es {ch['experiencia']}.", ephemeral=True)
+
+    @staff.command(name="crear_para", description="Crea un personaje para otro usuario (solo staff).")
+    async def staff_crear_para(
+        self,
+        interaction: discord.Interaction,
+        user: discord.User,
+        nombre: str,
+        apodo: str,
+        rol: str,
+        profesion: str,
+        nacion: str,
+    ):
+        if not isinstance(interaction.user, discord.Member) or not _is_staff(interaction.user):
+            await interaction.response.send_message("No tienes permisos de staff.", ephemeral=True)
+            return
+
+        data = _load_user(user.id)
+        root = _get_user_root(data, user.id)
+        ok, msg = _can_create_more(root)
+        if not ok:
+            await interaction.response.send_message(msg, ephemeral=True)
+            return
+
+        # Validar duplicados
+        if nombre in root["personajes"]:
+            await interaction.response.send_message("Ya existe un personaje con ese nombre.", ephemeral=True)
+            return
+
+        for c in root["personajes"].values():
+            if isinstance(c, dict) and c.get("apodo") == apodo:
+                await interaction.response.send_message("El apodo ya está en uso por ese usuario.", ephemeral=True)
+                return
+
+        # Crear
+        root["personajes"][nombre] = _new_character(nombre, apodo, rol, profesion, nacion)
+        _save_user(user.id, data)
+
+        await interaction.response.send_message(
+            f"✅ Personaje **{nombre}** creado para <@{user.id}>.\n"
+            f"Total actual: {len(root['personajes'])}/4",
+            ephemeral=True
+        )
 
     # ============================================================
     # PREFIX COMMANDS (=)
@@ -1234,6 +1291,46 @@ class PersonajeCog(commands.Cog):
         ch["experiencia"] = max(0, int(ch.get("experiencia", 0)) + int(xp))
         _save_user(user.id, data)
         await ctx.send(f"✅ XP de **{nombre_personaje}** ahora es {ch['experiencia']}.")
+ 
+    @pjstaff_prefix.command(name="crear_para")
+    async def pjstaff_crear_para(
+        self,
+        ctx: commands.Context,
+        user: discord.User,
+        nombre: str,
+        apodo: str,
+        rol: str,
+        profesion: str,
+        nacion: str,
+    ):
+        if not self._ctx_is_staff(ctx):
+            await ctx.send("No tienes permisos de staff.")
+            return
+
+        data = _load_user(user.id)
+        root = _get_user_root(data, user.id)
+
+        ok, msg = _can_create_more(root)
+        if not ok:
+            await ctx.send(msg)
+            return
+
+        if nombre in root["personajes"]:
+            await ctx.send("Ya existe un personaje con ese nombre.")
+            return
+
+        for c in root["personajes"].values():
+            if isinstance(c, dict) and c.get("apodo") == apodo:
+                await ctx.send("El apodo ya está en uso por ese usuario.")
+                return
+
+        root["personajes"][nombre] = _new_character(nombre, apodo, rol, profesion, nacion)
+        _save_user(user.id, data)
+
+        await ctx.send(
+            f"✅ Personaje **{nombre}** creado para <@{user.id}> "
+            f"({len(root['personajes'])}/4)."
+        )
 
 
 async def setup(bot: commands.Bot):

@@ -1,0 +1,57 @@
+﻿{
+  "schema_version": 1,
+  "meta": {
+    "type": "papiros",
+    "regions": ["Arcano", "Bestia", "Costa", "Montaña", "Desierto", "Umbra"],
+    "fusion": {
+      "required_count": 4,
+      "possible_results": ["receta", "libro", "mision"],
+      "activation_role_required": "Bibliotecario",
+      "activation_profession_required": {
+        "nombre": "Bibliotecario",
+        "nivel_min": 5,
+        "especialidades": ["Recuperacion", "Literatura"]
+      }
+    }
+  },
+  "items": {
+    "pap_arcano_set01_001": {
+      "id": "pap_arcano_set01_001",
+      "nombre": "Papiro Arcano I",
+      "descripcion": "Fragmento de conocimiento arcano. Parte de un set regional.",
+      "tipo": "Papiro",
+      "subtipos": ["Lore", "Oculto"],
+      "rareza": 2,
+      "region": "Arcano",
+      "profesiones": ["Bibliotecario"],
+      "tags": ["papiro", "set_arcano_01"],
+      "stack": { "apilable": true, "max_stack": 99 },
+      "trade": { "vendible": true, "precio_base": 60 },
+      "papiro": {
+        "set_id": "set_arcano_01",
+        "fragment_index": 1,
+        "total_fragments": 6,
+        "fusion_rules": {
+          "count_to_transform": 4,
+          "results": [
+            {
+              "tipo_resultado": "receta",
+              "resultado_id": "rec_espada_runica_001",
+              "probabilidad": 0.5
+            },
+            {
+              "tipo_resultado": "libro",
+              "resultado_id": "lib_arcano_001",
+              "probabilidad": 0.3
+            },
+            {
+              "tipo_resultado": "mision",
+              "resultado_id": "mis_arcana_001",
+              "probabilidad": 0.2
+            }
+          ]
+        }
+      }
+    }
+  }
+}

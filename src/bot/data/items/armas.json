@@ -1,0 +1,32 @@
+﻿{
+  "schema_version": 1,
+  "meta": {
+    "type": "armas",
+    "weapon_types": ["espada", "espadon", "lanza", "ballesta", "guadana", "hacha", "baston", "grimorio"],
+    "regions": ["Arcano", "Bestia", "Costa", "Montaña", "Desierto", "Umbra"]
+  },
+  "items": {
+    "wp_espada_hierro_001": {
+      "id": "wp_espada_hierro_001",
+      "nombre": "Espada de Hierro",
+      "descripcion": "Arma básica de filo.",
+      "tipo": "Arma",
+      "subtipos": [],
+      "rareza": 1,
+      "region": "Montaña",
+      "profesiones": ["Herrero"],
+      "tags": ["melee"],
+      "stack": { "apilable": false, "max_stack": 1 },
+      "trade": { "vendible": true, "precio_base": 120 },
+      "arma": {
+        "weapon_type": "espada",
+        "atk_base": 8,
+        "secundario_pct": { "stat": "probabilidad_critica", "valor": 0.01 },
+        "restricciones": {
+          "roles_permitidos": ["Guerrero"],
+          "roles_prohibidos": []
+        }
+      }
+    }
+  }
+}

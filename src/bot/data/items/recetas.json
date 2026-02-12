@@ -1,0 +1,33 @@
+﻿{
+  "schema_version": 1,
+  "meta": {
+    "type": "recetas",
+    "regions": ["Arcano", "Bestia", "Costa", "Montaña", "Desierto", "Umbra"]
+  },
+  "items": {
+    "rec_espada_runica_001": {
+      "id": "rec_espada_runica_001",
+      "nombre": "Receta: Espada Rúnica",
+      "descripcion": "Permite fabricar una Espada Rúnica si tienes los materiales.",
+      "tipo": "Receta",
+      "subtipos": ["Oculto"],
+      "rareza": 4,
+      "region": "Arcano",
+      "profesiones": ["Herrero"],
+      "tags": ["crafteo", "arma"],
+      "stack": { "apilable": true, "max_stack": 1 },
+      "trade": { "vendible": false, "precio_base": 0 },
+      "receta": {
+        "produce_item_id": "wp_espada_runica_001",
+        "cantidad": 1,
+        "requisitos": {
+          "profesion": { "nombre": "Herrero", "nivel_min": 3 },
+          "materiales": [
+            { "item_id": "mat_mena_hierro_001", "cantidad": 20 }
+          ]
+        },
+        "costo": { "oro": 100 }
+      }
+    }
+  }
+}

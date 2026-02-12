@@ -1,0 +1,28 @@
+﻿{
+  "schema_version": 1,
+  "meta": {
+    "type": "materiales",
+    "regions": ["Arcano", "Bestia", "Costa", "Montaña", "Desierto", "Umbra"]
+  },
+  "items": {
+    "mat_mena_hierro_001": {
+      "id": "mat_mena_hierro_001",
+      "nombre": "Mena de Hierro",
+      "descripcion": "Mineral común usado en herrería.",
+      "tipo": "Material",
+      "subtipos": ["Silvestre"],
+      "rareza": 1,
+      "region": "Montaña",
+      "profesiones": ["Minero"],
+      "tags": ["mineria", "metal"],
+      "stack": { "apilable": true, "max_stack": 999 },
+      "trade": { "vendible": true, "precio_base": 5 },
+      "obtener": {
+        "metodos": ["mineria"],
+        "requiere_herramienta": true,
+        "probabilidades": { "base": 1.0 }
+      }
+    }
+  }
+}
+

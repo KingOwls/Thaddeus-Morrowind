@@ -1,0 +1,29 @@
+﻿{
+  "schema_version": 1,
+  "meta": {
+    "type": "consumibles",
+    "regions": ["Arcano", "Bestia", "Costa", "Montaña", "Desierto", "Umbra"]
+  },
+  "items": {
+    "con_pocion_vida_001": {
+      "id": "con_pocion_vida_001",
+      "nombre": "Poción de Vida",
+      "descripcion": "Restaura vida al usarla.",
+      "tipo": "Consumible",
+      "subtipos": [],
+      "rareza": 1,
+      "region": "Arcano",
+      "profesiones": ["Alquimista"],
+      "tags": ["curacion"],
+      "stack": { "apilable": true, "max_stack": 99 },
+      "trade": { "vendible": true, "precio_base": 25 },
+      "uso": {
+        "consumir": true,
+        "efectos": [
+          { "tipo": "curacion_plana", "stat": "vida", "valor": 50 }
+        ],
+        "cooldown_seg": 0
+      }
+    }
+  }
+}
