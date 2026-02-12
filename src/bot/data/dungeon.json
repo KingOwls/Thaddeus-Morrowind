@@ -1,0 +1,269 @@
+{
+  "salas": [
+    {
+      "id": "combate_basico",
+      "tipo": "combate_basico",
+      "descripcion": "Un salón estrecho iluminado por antorchas, donde criaturas menores patrullan sin descanso.",
+      "enemigos": {
+        "tiene_enemigos": true,
+        "posibles_enemigos": ["rata_sombria", "eco_perdido", "escarabajo_hueco"],
+        "cantidad_min": 2,
+        "cantidad_max": 4
+      },
+      "eventos_especiales": [],
+      "recompensa": ["oro_pequeno", "material_comun"]
+    },
+
+    {
+      "id": "combate_elite",
+      "tipo": "combate_elite",
+      "descripcion": "Una cámara amplia con pilares rotos. Una criatura poderosa vigila la zona.",
+      "enemigos": {
+        "tiene_enemigos": true,
+        "posibles_enemigos": ["guardian_espectral", "bestia_corrupta"],
+        "cantidad_min": 1,
+        "cantidad_max": 2
+      },
+      "eventos_especiales": [],
+      "recompensa": ["oro_mediano", "material_raro"]
+    },
+
+    {
+      "id": "sub_jefe",
+      "tipo": "sub_jefe",
+      "descripcion": "Un santuario profanado donde reside un campeón maldito que protege la entrada al nivel superior.",
+      "enemigos": {
+        "tiene_enemigos": true,
+        "posibles_enemigos": ["campeon_oculto"],
+        "cantidad_min": 1,
+        "cantidad_max": 1
+      },
+      "eventos_especiales": ["cinematica_breve"],
+      "recompensa": ["llave_intermedia", "artefacto_raro"]
+    },
+
+    {
+      "id": "jefe_final",
+      "tipo": "jefe_final",
+      "descripcion": "La cámara final del dungeon, coronada por símbolos ancestrales y un aura opresiva.",
+      "enemigos": {
+        "tiene_enemigos": true,
+        "posibles_enemigos": ["senor_de_las_sombras"],
+        "cantidad_min": 1,
+        "cantidad_max": 1
+      },
+      "eventos_especiales": ["cinematica_final", "dialogo_jefe"],
+      "recompensa": ["botin_epico", "logro_unico"]
+    },
+
+    {
+      "id": "tesoro",
+      "tipo": "tesoro",
+      "descripcion": "Una sala llena de cofres polvorientos y montículos de oro abandonado.",
+      "enemigos": {
+        "tiene_enemigos": false,
+        "posibles_enemigos": [],
+        "cantidad_min": 0,
+        "cantidad_max": 0
+      },
+      "eventos_especiales": [],
+      "recompensa": ["oro_grande", "material_raro"]
+    },
+
+    {
+      "id": "cofre_raro",
+      "tipo": "cofre_raro",
+      "descripcion": "Un pedestal solitario sostiene un cofre decorado con runas brillantes.",
+      "enemigos": {
+        "tiene_enemigos": false,
+        "posibles_enemigos": [],
+        "cantidad_min": 0,
+        "cantidad_max": 0
+      },
+      "eventos_especiales": ["trampa_posible"],
+      "recompensa": ["arma_rara", "pocion_epica"]
+    },
+
+    {
+      "id": "bendicion",
+      "tipo": "bendicion",
+      "descripcion": "Un altar sagrado donde una energía divina concede poder temporal.",
+      "enemigos": {
+        "tiene_enemigos": false,
+        "posibles_enemigos": [],
+        "cantidad_min": 0,
+        "cantidad_max": 0
+      },
+      "eventos_especiales": ["buff_temporal"],
+      "recompensa": ["bendicion_divina"]
+    },
+
+    {
+      "id": "libro_oculto",
+      "tipo": "libro_oculto",
+      "descripcion": "Una biblioteca olvidada llena de manuscritos en lenguas prohibidas.",
+      "enemigos": {
+        "tiene_enemigos": false,
+        "posibles_enemigos": [],
+        "cantidad_min": 0,
+        "cantidad_max": 0
+      },
+      "eventos_especiales": ["conocimiento_prohibido", "eleccion_moral"],
+      "recompensa": ["hechizo_oculto"]
+    },
+
+    {
+      "id": "descanso",
+      "tipo": "descanso",
+      "descripcion": "Un pequeño refugio protegido por antiguas runas que repelen enemigos.",
+      "enemigos": {
+        "tiene_enemigos": false,
+        "posibles_enemigos": [],
+        "cantidad_min": 0,
+        "cantidad_max": 0
+      },
+      "eventos_especiales": ["recuperacion_parcial"],
+      "recompensa": ["estamina_recuperada", "vida_recuperada"]
+    },
+
+    {
+      "id": "tienda",
+      "tipo": "tienda",
+      "descripcion": "Un mercader misterioso ofrece objetos a cambio de monedas o recursos.",
+      "enemigos": {
+        "tiene_enemigos": false,
+        "posibles_enemigos": [],
+        "cantidad_min": 0,
+        "cantidad_max": 0
+      },
+      "eventos_especiales": ["interfaz_tienda"],
+      "recompensa": []
+    },
+
+    {
+      "id": "curandero",
+      "tipo": "curandero",
+      "descripcion": "Una fuente pura donde un espíritu sanador limpia heridas y corrupción.",
+      "enemigos": {
+        "tiene_enemigos": false,
+        "posibles_enemigos": [],
+        "cantidad_min": 0,
+        "cantidad_max": 0
+      },
+      "eventos_especiales": ["cura_total"],
+      "recompensa": ["vida_completa", "purificacion"]
+    },
+
+    {
+      "id": "ritual",
+      "tipo": "ritual",
+      "descripcion": "Un círculo arcano cuya energía permite realizar pactos arriesgados.",
+      "enemigos": {
+        "tiene_enemigos": false,
+        "posibles_enemigos": [],
+        "cantidad_min": 0,
+        "cantidad_max": 0
+      },
+      "eventos_especiales": ["pacto_beneficio", "pacto_maldicion"],
+      "recompensa": ["mejora_mistica", "maldicion_ligera"]
+    },
+
+    {
+      "id": "evento",
+      "tipo": "evento",
+      "descripcion": "Un encuentro inesperado que puede ofrecer ayuda, peligro o decisiones morales.",
+      "enemigos": {
+        "tiene_enemigos": false,
+        "posibles_enemigos": [],
+        "cantidad_min": 0,
+        "cantidad_max": 0
+      },
+      "eventos_especiales": ["eleccion_evento"],
+      "recompensa": ["recompensa_variable"]
+    },
+
+    {
+      "id": "trampa",
+      "tipo": "trampa",
+      "descripcion": "Un pasillo plagado de mecanismos ocultos que se activan al menor paso.",
+      "enemigos": {
+        "tiene_enemigos": false,
+        "posibles_enemigos": [],
+        "cantidad_min": 0,
+        "cantidad_max": 0
+      },
+      "eventos_especiales": ["daño_trampa", "desventaja_temporal"],
+      "recompensa": ["botin_pequeno"]
+    },
+
+    {
+      "id": "enigmas",
+      "tipo": "enigmas",
+      "descripcion": "Una sala con puertas selladas por acertijos que deben resolverse.",
+      "enemigos": {
+        "tiene_enemigos": false,
+        "posibles_enemigos": [],
+        "cantidad_min": 0,
+        "cantidad_max": 0
+      },
+      "eventos_especiales": ["puzzle_logico", "puzzle_magico"],
+      "recompensa": ["material_raro", "acceso_secreto"]
+    },
+
+    {
+      "id": "oculta",
+      "tipo": "oculta",
+      "descripcion": "Un área escondida entre muros ilusorios, accesible solo con percepción elevada.",
+      "enemigos": {
+        "tiene_enemigos": false,
+        "posibles_enemigos": [],
+        "cantidad_min": 0,
+        "cantidad_max": 0
+      },
+      "eventos_especiales": ["descubrimiento_oculto"],
+      "recompensa": ["reliquia_secreta"]
+    },
+
+    {
+      "id": "pasillo",
+      "tipo": "pasillo",
+      "descripcion": "Un corredor vacío que conecta distintas áreas del dungeon.",
+      "enemigos": {
+        "tiene_enemigos": false,
+        "posibles_enemigos": [],
+        "cantidad_min": 0,
+        "cantidad_max": 0
+      },
+      "eventos_especiales": [],
+      "recompensa": []
+    },
+
+    {
+      "id": "transicion",
+      "tipo": "transicion",
+      "descripcion": "Una sala sencilla que marca el cambio entre zonas o niveles del dungeon.",
+      "enemigos": {
+        "tiene_enemigos": false,
+        "posibles_enemigos": [],
+        "cantidad_min": 0,
+        "cantidad_max": 0
+      },
+      "eventos_especiales": [],
+      "recompensa": []
+    },
+
+    {
+      "id": "camara_silenciosa",
+      "tipo": "camara_silenciosa",
+      "descripcion": "Una habitación fría y sin eco donde no ocurre absolutamente nada.",
+      "enemigos": {
+        "tiene_enemigos": false,
+        "posibles_enemigos": [],
+        "cantidad_min": 0,
+        "cantidad_max": 0
+      },
+      "eventos_especiales": ["silencio_perturbador"],
+      "recompensa": []
+    }
+  ]
+}

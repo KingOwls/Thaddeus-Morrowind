@@ -1,0 +1,30 @@
+[
+  {
+    "id": "tienda_backlund_alquimia",
+    "nombre": "Tienda de Alquimia de Backlund",
+    "region": "Backlund",
+    "tipo": "alquimia",
+
+    "reputacion_requerida": 0,
+
+    "inventario": [
+      {
+        "item_id": "materia_primordial_planta_001",
+        "precio_modificador": 1.2,
+        "stock": 15,
+        "requerimientos": {
+          "nivel_profesion": 0,
+          "rareza_maxima": 3
+        }
+      },
+      {
+        "item_id": "receta_pocion_lector",
+        "precio_modificador": 1.8,
+        "stock": 2,
+        "requerimientos": {
+          "nivel_profesion": 2
+        }
+      }
+    ]
+  }
+]

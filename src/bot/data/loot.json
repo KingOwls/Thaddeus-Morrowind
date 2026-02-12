@@ -1,0 +1,25 @@
+[
+  {
+    "id": "loot_bestia_sombria",
+    "drops": [
+      {
+        "item_id": "garra_bestia_comun",
+        "probabilidad": 0.60,
+        "cantidad_min": 1,
+        "cantidad_max": 2
+      },
+      {
+        "item_id": "cuero_bestia_raro",
+        "probabilidad": 0.15,
+        "cantidad_min": 1,
+        "cantidad_max": 1
+      },
+      {
+        "item_id": "pocion_vida_pequena",
+        "probabilidad": 0.05,
+        "cantidad_min": 1,
+        "cantidad_max": 1
+      }
+    ]
+  }
+]

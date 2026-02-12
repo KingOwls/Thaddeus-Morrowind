@@ -1,0 +1,3354 @@
+{
+    "pathways": {
+        "The Fool": {
+        "nombre": "The Fool",
+        "descripcion": "Camino del Loco: especializado en engañar la percepción y la realidad, control de hilos espirituales, ilusión, adivinación, cambios históricos y milagros.",
+        "imagen": "https://static.wikia.nocookie.net/lord-of-the-mystery/images/d/d7/Fool_Symbol2.png/revision/latest?cb=20230526081205",
+            "secuencias": [
+                {
+                "nivel": 9,
+                "nombre": "Seer",
+                "habilidades": [
+                    {
+                    "nombre": "Enhanced Memory",
+                    "descripcion": "Mejora de la memoria tras digerir la poción, permitiendo memorizar rituales mágicos y artes de adivinación con gran facilidad."  
+                    },
+                    {
+                    "nombre": "Spirit Vision",
+                    "descripcion": "Permite ver entidades no físicas como fantasmas o la parte espiritual de un alma, deducir la salud o emociones de una persona."  
+                    },
+                    {
+                    "nombre": "Danger Intuition",
+                    "descripcion": "Intuición espiritual para detectar peligros antes de que se manifiesten físicamente."  
+                    }
+                ]
+                },
+                {
+                "nivel": 8,
+                "nombre": "Clown",
+                "habilidades": [
+                    {
+                    "nombre": "Physical Enhancement",
+                    "descripcion": "Control extremo sobre el cuerpo, incluyendo expresiones faciales, acrobacias, velocidad, coordinación y balance."  
+                    },
+                    {
+                    "nombre": "Paper Daggers",
+                    "descripcion": "Convertir hojas de papel en dagas afiladas como acero para lanzar o usar como cuchillos."  
+                    },
+                    {
+                    "nombre": "Premonition via Danger Intuition",
+                    "descripcion": "Forma mejorada de intuición de peligro, capaz de predecir acciones de otros o ataques inminentes."  
+                    }
+                ]
+                },
+                {
+                "nivel": 7,
+                "nombre": "Magician",
+                "habilidades": [
+                    {
+                    "nombre": "Damage Transfer",
+                    "descripcion": "Transferir heridas de un lado del cuerpo a otro (propio o de otros) para mitigar daño."  
+                    },
+                    {
+                    "nombre": "Flaming Jump",
+                    "descripcion": "Teletransportarse a través de chispas o llamas; durante el salto, se vuelve inmune a llamas comunes."  
+                    },
+                    {
+                    "nombre": "Illusion Creation",
+                    "descripcion": "Crear ilusiones multisensoriales (color, sonido, olor) muy realistas para engañar a otros."  
+                    }
+                ]
+                },
+                {
+                "nivel": 6,
+                "nombre": "Faceless",
+                "habilidades": [
+                    {
+                    "nombre": "Shapeshifting",
+                    "descripcion": "Capacidad para cambiar su rostro, voz, e incluso olor, imitando a otras personas."  
+                    },
+                    {
+                    "nombre": "Perfect Recall",
+                    "descripcion": "Recordar perfectamente la forma, temperamento y gestos de todos los que conoce, incluso cuando estén disfrazados."  
+                    },
+                    {
+                    "nombre": "Enhanced Tracking & Anti-tracking",
+                    "descripcion": "Ventaja en rastrear o evitar ser rastreado gracias a su control corporal y su capacidad de cambio de apariencia."  
+                    }
+                ]
+                },
+                {
+                "nivel": 5,
+                "nombre": "Marionettist",
+                "habilidades": [
+                    {
+                    "nombre": "Spirit Body Threads Manipulation",
+                    "descripcion": "Percibir y manipular los hilos espirituales (Spirit Body Threads) de otros para controlarlos."  
+                    },
+                    {
+                    "nombre": "Marionette Control",
+                    "descripcion": "Convertir objetivos en marionetas espirituales bajo su control completo."  
+                    },
+                    {
+                    "nombre": "Possession",
+                    "descripcion": "Poseer sus marionetas para experimentar lo que ellas ven y sienten."  
+                    }
+                ]
+                },
+                {
+                "nivel": 4,
+                "nombre": "Bizarro Sorcerer",
+                "habilidades": [
+                    {
+                    "nombre": "Bestowal",
+                    "descripcion": "Puede 'regalar' sus Worms of Spirit a sus marionetas para que usen sus poderes beyonder."  
+                    },
+                    {
+                    "nombre": "Worm Exchange",
+                    "descripcion": "Intercambiar gusanos espirituales con sus marionetas en un rango muy amplio."  
+                    },
+                    {
+                    "nombre": "Marionette Interchange",
+                    "descripcion": "Cambiar lugares con una marioneta a gran distancia, como un intercambio instantáneo."  
+                    }
+                ]
+                },
+                {
+                "nivel": 3,
+                "nombre": "Scholar of Yore",
+                "habilidades": [
+                    {
+                    "nombre": "Historical Projection Summoning",
+                    "descripcion": "Invocar personas u objetos del pasado (desde el Historical Void) al presente temporalmente."  
+                    },
+                    {
+                    "nombre": "Historical Void Borrowing",
+                    "descripcion": "Tomar fuerza o conocimiento de su yo del pasado para reforzarse en el presente."  
+                    },
+                    {
+                    "nombre": "Marionette Interchange Mejorada",
+                    "descripcion": "Intercambiar posiciones con sus marionetas a enormes distancias (kilómetros) tras digerir la poción."  
+                    }
+                ]
+                },
+                {
+                "nivel": 2,
+                "nombre": "Miracle Invoker",
+                "habilidades": [
+                    {
+                    "nombre": "Miracles",
+                    "descripcion": "Capacidad para realizar milagros, tanto para otros como para sí mismo, en función de los deseos acumulados."  
+                    },
+                    {
+                    "nombre": "Resurrection",
+                    "descripcion": "Cuando muere, sus características beyonder y gusanos de espíritu pueden fusionarse para renacer."  
+                    },
+                    {
+                    "nombre": "Spirit Body Expansion",
+                    "descripcion": "Poder espiritual muy elevado que le permite manifestar un vórtice con gusanos de espíritu y tentáculos invisibles."  
+                    }
+                ]
+                },
+                {
+                "nivel": 1,
+                "nombre": "Attendant of Mysteries",
+                "habilidades": [
+                    {
+                    "nombre": "Regenerate",
+                    "descripcion": "Regenera hilos espirituales de objetos que previamente tenían cuerpo espiritual y los convierte en marionetas."  
+                    },
+                    {
+                    "nombre": "Tampering / Reassembly",
+                    "descripcion": "Reensamblaje de objetos físicos o conceptos abstractos para cambiar su definición, reglas o naturaleza."  
+                    },
+                    {
+                    "nombre": "Fusion Espíritu-Físico",
+                    "descripcion": "Puede fusionar su cuerpo espiritual con el físico, o mantener ambos simultáneamente."  
+                    }
+                ]
+                },
+                {
+                "nivel": 0,
+                "nombre": "Fool",
+                "habilidades": [
+                    {
+                    "nombre": "Fooling",
+                    "descripcion": "Transformar falsedades en realidades, manipular historia, tiempo, destino, ocultamiento y la mente."  
+                    },
+                    {
+                    "nombre": "Anchor of Destiny",
+                    "descripcion": "Sus palabras y predicciones pueden convertirse en nodos reales en el flujo del destino."  
+                    },
+                    {
+                    "nombre": "Divina Autoridad de Milagros",
+                    "descripcion": "Poder de milagros profundos, regeneración de resurrección y manipulación a nivel cósmico."  
+                    }
+                ]
+                }
+            ]
+        },
+        "Error": {
+        "nombre": "Error Pathway",
+        "descripcion": "Camino del Error: especializado en el engaño, el robo de habilidades y esencias, explotación de lagunas en las reglas del mundo, parásitos y manipulación del tiempo.",
+        "imagen": "https://static.wikia.nocookie.net/lord-of-the-mystery/images/0/07/Error_Symbol2.png/revision/latest?cb=20230526081303",
+            "secuencias": [
+                {
+                "nivel": 9,
+                "nombre": "Marauder",
+                "habilidades": [
+                    {
+                    "nombre": "Theft (Stealing)",
+                    "descripcion": "Poder para robar objetos físicos del objetivo sin ser detectado, usando sigilo y habilidades manuales."  
+                    },
+                    {
+                    "nombre": "Enhanced Observation",
+                    "descripcion": "Capacidad para notar objetos valiosos en el entorno o en la ropa de otros, incluso sin ver claramente todos los detalles."  
+                    },
+                    {
+                    "nombre": "Agile Hands",
+                    "descripcion": "Manos y muñecas con alta destreza, permitiendo manipulación rápida, lanzamiento de objetos o robos precisos."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [
+                    { "nombre": "Blood-Speckled Black Mosquito", "cantidad": 1 },
+                    { "nombre": "Core of a Candle Devourer", "cantidad": 1 }
+                    ],
+                    "ingredientes_secundarios": []
+                }
+                },
+                {
+                "nivel": 8,
+                "nombre": "Swindler",
+                "habilidades": [
+                    {
+                    "nombre": "Mental Disruption",
+                    "descripcion": "Causa alucinaciones mentales en el objetivo, perturbando su juicio o percepción de la realidad."  
+                    },
+                    {
+                    "nombre": "Charm / Eloquence",
+                    "descripcion": "Gran carisma y poder de persuasión, capaz de engañar a otros por medio de las palabras."  
+                    },
+                    {
+                    "nombre": "Thought Misdirection",
+                    "descripcion": "Redirige el pensamiento de otros mediante gestos, palabras o manipulando el entorno para confundir sus intenciones."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [],
+                    "ingredientes_secundarios": []
+                }
+                },
+                {
+                "nivel": 7,
+                "nombre": "Cryptologist",
+                "habilidades": [
+                    {
+                    "nombre": "Decryption",
+                    "descripcion": "Puede descifrar misterios místicos: sueños, ilusiones, conjuros, nombres honoríficos y artefactos sellados."  
+                    },
+                    {
+                    "nombre": "Superior Observation Mejorada",
+                    "descripcion": "Percepción aumentada para notar pistas muy sutiles, rastros espirituales o mentales."  
+                    },
+                    {
+                    "nombre": "Alta Intuición Espiritual",
+                    "descripcion": "Tiene una intuición espiritual muy desarrollada, lo que le permite deducir verdades ocultas."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [
+                    { "nombre": "Sphinx Brain", "cantidad": 1 },
+                    { "nombre": "Adult Soul-Confusing Insect Swarm", "cantidad": 1 }
+                    ],
+                    "ingredientes_secundarios": [
+                    { "nombre": "Sphinx Blood", "cantidad": 80 },
+                    { "nombre": "Mucus from Soul-Confusing Insect Swarm", "cantidad": 10 },
+                    { "nombre": "Moonstone", "cantidad": 1 },
+                    { "nombre": "Wild Rose", "cantidad": 1 },
+                    { "nombre": "Self-designed Cipher", "cantidad": 1 }
+                    ]
+                }
+                },
+                {
+                "nivel": 6,
+                "nombre": "Prometheus",
+                "habilidades": [
+                    {
+                    "nombre": "Theft de Beyonder Powers",
+                    "descripcion": "Roba habilidades beyonder de otros durante un tiempo, utilizando gestos y manipulación simbólica."  
+                    },
+                    {
+                    "nombre": "Superior Observation de Largo Alcance",
+                    "descripcion": "Puede detectar objetos o habilidades a distancias mayores (ejemplo: hasta decenas de metros)."  
+                    },
+                    {
+                    "nombre": "Resistencia Mental",
+                    "descripcion": "Mayor resistencia a la corrupción mental, protegiéndose de ataques psíquicos o manipulaciones."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [
+                    { "nombre": "Crystal Threadworm", "cantidad": 1 },
+                    { "nombre": "Cloaked Specter’s Attachment", "cantidad": 1 }
+                    ],
+                    "ingredientes_secundarios": [
+                    { "nombre": "Freshly Stolen Wine", "cantidad": 100 },
+                    { "nombre": "Cloaked Specter residue", "cantidad": 10 },
+                    { "nombre": "Citrine", "cantidad": 1 },
+                    { "nombre": "Larch Essential Oil", "cantidad": 10 },
+                    { "nombre": "Ignited Flame", "cantidad": 1 }
+                    ]
+                }
+                },
+                {
+                "nivel": 5,
+                "nombre": "Dream Stealer",
+                "habilidades": [
+                    {
+                    "nombre": "Theft de Pensamientos e Ideales",
+                    "descripcion": "Roba no solo habilidades, sino también pensamientos, ideales, memorias y sueños de los demás."  
+                    },
+                    {
+                    "nombre": "Disguise (Heavenly Mysteries)",
+                    "descripcion": "Se disfraza como un seguidor de una deidad para robar sus respuestas a plegarias o poderes divinos."  
+                    },
+                    {
+                    "nombre": "Decryption Profundo",
+                    "descripcion": "Capacidad para romper ilusiones y descifrar encantamientos de alto nivel o símbolos místicos."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [
+                    { "nombre": "Dream-Eating Rat Heart", "cantidad": 1 },
+                    { "nombre": "Spirit of Decaying Breath", "cantidad": 1 }
+                    ],
+                    "ingredientes_secundarios": [
+                    { "nombre": "Dream-Eating Rat Blood", "cantidad": 30 },
+                    { "nombre": "De-spiritualized Decaying Breath", "cantidad": 30 },
+                    { "nombre": "Celestine", "cantidad": 1 },
+                    { "nombre": "Lavender Hydrosol", "cantidad": 10 },
+                    { "nombre": "Tears of Broken Ideals", "cantidad": 50 }
+                    ]
+                }
+                },
+                {
+                "nivel": 4,
+                "nombre": "Parasite",
+                "habilidades": [
+                    {
+                    "nombre": "Parasitism",
+                    "descripcion": "Se engancha al cuerpo espiritual (Spirit Body) de otros para robar su vida, habilidades o controlar su cuerpo."  
+                    },
+                    {
+                    "nombre": "Modo Control / Modo Oculto",
+                    "descripcion": "Puede actuar oculto dentro del anfitrión o asumir control completo del cuerpo y la mente del huesped."  
+                    },
+                    {
+                    "nombre": "Robo de Conceptos Vitales",
+                    "descripcion": "Roba no solo habilidades, sino también conceptos esenciales como posición, distancia o la propia vida."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [
+                    { "nombre": "Soul-Snatcher’s Postmortem Crystal", "cantidad": 1 },
+                    { "nombre": "Puppet Parasitic Worm", "cantidad": 1 }
+                    ],
+                    "ingredientes_secundarios": [
+                    { "nombre": "Soul-Snatcher’s Blood", "cantidad": 100 },
+                    { "nombre": "Puppet Parasitic Worm secretions", "cantidad": 9 },
+                    { "nombre": "Amethyst", "cantidad": 1 },
+                    { "nombre": "Cherry Plum Juice", "cantidad": 10 },
+                    { "nombre": "Imprisoned Soul", "cantidad": 1 }
+                    ]
+                }
+                },
+                {
+                "nivel": 3,
+                "nombre": "Mentor of Deceit",
+                "habilidades": [
+                    {
+                    "nombre": "Avatar Creation",
+                    "descripcion": "Crear avatares que actúan como extensiones de sí mismo para robar, manipular o espiar."  
+                    },
+                    {
+                    "nombre": "Theft Avanzado",
+                    "descripcion": "Robar múltiples habilidades beyonder en un solo intento con mayor precisión."  
+                    },
+                    {
+                    "nombre": "Superior Observation & Deceit",
+                    "descripcion": "Discierne debilidades en los demás para explotarlas mediante engaño o truco."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [
+                    { "nombre": "Swamp Giant’s Palms (pair)", "cantidad": 1 },
+                    { "nombre": "Blasphemous Priest Core", "cantidad": 1 }
+                    ],
+                    "ingredientes_secundarios": [
+                    { "nombre": "Swamp Giant’s Blood", "cantidad": 80 },
+                    { "nombre": "Fungal Shroud of Blasphemous Priest", "cantidad": 20 },
+                    { "nombre": "Gold", "cantidad": 30 },
+                    { "nombre": "Violet Puredew", "cantidad": 10 },
+                    { "nombre": "Spirit World Wraiths (muertos por el engaño)", "cantidad": 9 }
+                    ]
+                }
+                },
+                {
+                "nivel": 2,
+                "nombre": "Trojan Horse of Destiny",
+                "habilidades": [
+                    {
+                    "nombre": "Loophole Exploitation",
+                    "descripcion": "Encuentra y explota lagunas o errores en las reglas del destino, el orden mundial y las leyes místicas."  
+                    },
+                    {
+                    "nombre": "Destiny Tampering",
+                    "descripcion": "Puede alterar el destino, introducir errores en la línea del tiempo o causar desviaciones en los designios."  
+                    },
+                    {
+                    "nombre": "Autoridad Parcial sobre el Destino",
+                    "descripcion": "Tiene sensibilidad para percibir cambios sutiles en el flujo del destino y manipularlos."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [
+                    { "nombre": "Postmortem Crystal of a Giant King’s Court Priest", "cantidad": 1 }
+                    ],
+                    "ingredientes_secundarios": [
+                    { "nombre": "Ancient River Water", "cantidad": 100 },
+                    { "nombre": "Worm of Spirit", "cantidad": 1 },
+                    { "nombre": "Worm of Star", "cantidad": 1 },
+                    { "nombre": "Fabricated Historical Records", "cantidad": 1 }
+                    ]
+                }
+                },
+                {
+                "nivel": 1,
+                "nombre": "Worm of Time",
+                "habilidades": [
+                    {
+                    "nombre": "Time Theft",
+                    "descripcion": "Robar tiempo: retirar años de la vida de otros o ralentizar procesos para manipular su duración."  
+                    },
+                    {
+                    "nombre": "Autoridad sobre Tiempo",
+                    "descripcion": "Posee poder para manipular el tiempo, crear anomalías temporales o distorsionar su flujo."  
+                    },
+                    {
+                    "nombre": "Temporal Erosión",
+                    "descripcion": "Su ser sufre erosiones por el paso del tiempo, reflejando su profunda conexión con el Error."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [
+                    { "nombre": "Worm of Time Beyonder Characteristic", "cantidad": 1 }
+                    ],
+                    "ingredientes_secundarios": [
+                    { "nombre": "Ancient Clock", "cantidad": 1 },
+                    { "nombre": "Used Almanac", "cantidad": 1 },
+                    { "nombre": "Segment of Concealed Fate", "cantidad": 1 }
+                    ]
+                }
+                },
+                {
+                "nivel": 0,
+                "nombre": "Error (Bug)",
+                "habilidades": [
+                    {
+                    "nombre": "Error Creation",
+                    "descripcion": "Crear bugs o fallos en la realidad, manipulando las reglas del mundo para introducir errores irreparables."  
+                    },
+                    {
+                    "nombre": "Swap / Substitute",
+                    "descripcion": "Intercambiar su cuerpo con avatares o sombras, permitiendo evasión o engaño profundo."  
+                    },
+                    {
+                    "nombre": "Autoridad Suprema del Error",
+                    "descripcion": "Se convierte en la encarnación misma de los errores, con control absoluto sobre lagunas lógicas, temporales y existenciales."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [
+                    { "nombre": "Todas las Worms of Time Characteristics (excepto la propia)", "cantidad": "varias" }
+                    ],
+                    "ingredientes_secundarios": [
+                    { "nombre": "Tres Beacons extraídos del River of Fate", "cantidad": 3 }
+                    ]
+                }
+                }
+            ]
+        },
+        "Door": {
+        "nombre": "Door Pathway",
+        "descripcion": "Camino de la Puerta: especializado en atravesar obstáculos, manipular el espacio, teletransportarse, crear puertas simbólicas, grabar y replicar poderes beyonder, y sellar o ocultar lugares.",
+        "imagen": "https://static.wikia.nocookie.net/lord-of-the-mystery/images/e/e6/Door_Symbol2.png/revision/latest?cb=20230526081240",
+            "secuencias": [
+                {
+                "nivel": 9,
+                "nombre": "Apprentice",
+                "habilidades": [
+                    {
+                    "nombre": "Door Opening",
+                    "descripcion": "Permite abrir puertas simbólicas: fasear a través de paredes u otros obstáculos usando una puerta incorpórea."  
+                    },
+                    {
+                    "nombre": "Lock Opening",
+                    "descripcion": "Puede abrir cerraduras sin poderes místicos y algunas con refuerzos beyonder."  
+                    },
+                    {
+                    "nombre": "Escape / Evade",
+                    "descripcion": "Alta capacidad para escapar de situaciones difíciles, difícil de atrapar gracias a su movilidad."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [
+                    { "nombre": "Gem-Devouring Worm", "cantidad": 1 },
+                    { "nombre": "Illusion Crystal", "cantidad": 1 }
+                    ],
+                    "ingredientes_secundarios": [
+                    { "nombre": "Goat's Beard Hydrosol", "cantidad": 10 },
+                    { "nombre": "Ancient Well Water", "cantidad": 90 },
+                    { "nombre": "Flower grown from a corpse", "cantidad": 1 },
+                    { "nombre": "Spirit World-contaminated soil", "cantidad": 5 }
+                    ]
+                }
+                },
+                {
+                "nivel": 8,
+                "nombre": "Trickmaster",
+                "habilidades": [
+                    {
+                    "nombre": "Gas Transfer",
+                    "descripcion": "Permite mover gases tóxicos o nocivos hasta 15 metros de distancia."  
+                    },
+                    {
+                    "nombre": "Flash",
+                    "descripcion": "Genera una luz cegadora para desorientar la visión de otros."  
+                    },
+                    {
+                    "nombre": "Escape Trick",
+                    "descripcion": "Usa cortinas oscuras, grandes ruidos o destellos para distraer y moverse rápidamente (una forma menor de \"blink\")."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [
+                    { "nombre": "Stomach pouch of a Spirit Eater", "cantidad": 1 },
+                    { "nombre": "Deep Sea Marlin's Blood", "cantidad": 20 }
+                    ],
+                    "ingredientes_secundarios": [
+                    { "nombre": "Hornbeam Essential Oil", "cantidad": 5 },
+                    { "nombre": "String Grass Powder", "cantidad": 10 },
+                    { "nombre": "Red Chestnut Flower", "cantidad": 1 },
+                    { "nombre": "Purified Water", "cantidad": 80 }
+                    ]
+                }
+                },
+                {
+                "nivel": 7,
+                "nombre": "Astrologer",
+                "habilidades": [
+                    {
+                    "nombre": "Spirit Vision",
+                    "descripcion": "Permite ver entidades no físicas como espectros o partes del alma para deducir emociones o salud."  
+                    },
+                    {
+                    "nombre": "Divination Arts (Astrology)",
+                    "descripcion": "Gran dominio de métodos de adivinación; puede usar astrología o esferas cristalinas para predecir o ver información mística."  
+                    },
+                    {
+                    "nombre": "Anti-Divination",
+                    "descripcion": "Puede interferir con la adivinación y la intuición espiritual de otros."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [
+                    { "nombre": "Meteorite Crystal", "cantidad": 60 },
+                    { "nombre": "Lavos Squid's Crystallized Blood", "cantidad": 1 }
+                    ],
+                    "ingredientes_secundarios": [
+                    { "nombre": "Clematis Powder", "cantidad": 10 },
+                    { "nombre": "Withered Grapevine segment", "cantidad": 1 },
+                    { "nombre": "Octopus Eyeballs (pair)", "cantidad": 1 },
+                    { "nombre": "Strong Liquor", "cantidad": 80 }
+                    ]
+                }
+                },
+                {
+                "nivel": 6,
+                "nombre": "Scribe",
+                "habilidades": [
+                    {
+                    "nombre": "Record Beyonder Power",
+                    "descripcion": "Permite grabar símbolos, patrones y etiquetas de habilidades beyonder para usarlas después."  
+                    },
+                    {
+                    "nombre": "Soul-Ink Recording",
+                    "descripcion": "Usa su alma como pluma y su cuerpo espiritual como papel para grabar poderes."  
+                    },
+                    {
+                    "nombre": "Limited Storage",
+                    "descripcion": "Inicialmente puede grabar un número limitado de poderes, que aumentan con la digestión de la poción."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [
+                    { "nombre": "Complete Brain of an Asmann", "cantidad": 1 },
+                    { "nombre": "Cursed Artifacts of a Wraith", "cantidad": 1 }
+                    ],
+                    "ingredientes_secundarios": [
+                    { "nombre": "Old Diary Pages", "cantidad": 3 },
+                    { "nombre": "Mercury", "cantidad": 10 },
+                    { "nombre": "Honeysuckle Essential Oil", "cantidad": 10 },
+                    { "nombre": "Seawater", "cantidad": 30 }
+                    ]
+                }
+                },
+                {
+                "nivel": 5,
+                "nombre": "Traveler",
+                "habilidades": [
+                    {
+                    "nombre": "Traveler’s Door / Teleportation",
+                    "descripcion": "Puede abrir una puerta hacia el Mundo Espiritual para viajar grandes distancias o teletransportarse."  
+                    },
+                    {
+                    "nombre": "Blink",
+                    "descripcion": "Forma de teleportación a corto alcance dejando imágenes residuales."  
+                    },
+                    {
+                    "nombre": "Invisible Hand",
+                    "descripcion": "Puede manipular objetos a distancia como si tuviera manos invisibles."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [
+                    { "nombre": "Siskun Demon Worm", "cantidad": 1 },
+                    { "nombre": "Heart of a Shadowless Demonic Wolf", "cantidad": 1 }
+                    ],
+                    "ingredientes_secundarios": [
+                    { "nombre": "Trapped Ghost Residue Powder", "cantidad": 10 },
+                    { "nombre": "Lemon Balm Powder", "cantidad": 10 },
+                    { "nombre": "Star Chart (drawn with Spirit Blood)", "cantidad": 1 },
+                    { "nombre": "Shadowless Demonic Wolf’s Blood", "cantidad": 80 }
+                    ]
+                }
+                },
+                {
+                "nivel": 4,
+                "nombre": "Secrets Sorcerer",
+                "habilidades": [
+                    {
+                    "nombre": "Space Concealment",
+                    "descripcion": "Crear espacios ocultos divididos por puertas, a los que solo se puede acceder a través de una puerta específica."  
+                    },
+                    {
+                    "nombre": "Transfiguration (Door Form)",
+                    "descripcion": "Transformarse en múltiples puertas ilusorias para evitar ataques."  
+                    },
+                    {
+                    "nombre": "Secret Keeping",
+                    "descripcion": "Ocultar secretos o bloquear la intuición de otros, incluso convertirse en un “secreto” como tal."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [
+                    { "nombre": "Eye of a Golden Phoenix (o Ankh Gate’s Foundation)", "cantidad": 1 }
+                    ],
+                    "ingredientes_secundarios": [
+                    { "nombre": "Siskun Demon Worm’s Nest", "cantidad": 1 },
+                    { "nombre": "Ankh Gate’s Ashes", "cantidad": 1 },
+                    { "nombre": "Walnut", "cantidad": 1 }
+                    ]
+                }
+                },
+                {
+                "nivel": 3,
+                "nombre": "Wanderer",
+                "habilidades": [
+                    {
+                    "nombre": "Wandering (Inter-plane Travel)",
+                    "descripcion": "Permite vagar por el Mundo Astral y entrar en el Cosmos para explorar planetas o realidades."  
+                    },
+                    {
+                    "nombre": "Space Tearing",
+                    "descripcion": "Tear (rasgar) espacio físico, haciendo que el área colapse en una tormenta espacio-temporal."  
+                    },
+                    {
+                    "nombre": "Space Integration",
+                    "descripcion": "Adaptarse y ocultarse en diferentes entornos interdimensionales, fusionando su presencia con el espacio."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [
+                    { "nombre": "Wandering Skin", "cantidad": 1 },
+                    { "nombre": "Crystal from a Mist Watcher", "cantidad": 1 }
+                    ],
+                    "ingredientes_secundarios": [
+                    { "nombre": "Wandering Skin’s Pus", "cantidad": 10 },
+                    { "nombre": "Mist Watcher Eyelid", "cantidad": 1 },
+                    { "nombre": "White Mustard Seeds", "cantidad": 9 },
+                    { "nombre": "Star Water", "cantidad": 90 }
+                    ]
+                }
+                },
+                {
+                "nivel": 2,
+                "nombre": "Planeswalker",
+                "habilidades": [
+                    {
+                    "nombre": "Symbolization",
+                    "descripcion": "Puede transformarse en símbolos, facilitando su viaje por el Mundo Astral y otras realidades."  
+                    },
+                    {
+                    "nombre": "Dimension Sight",
+                    "descripcion": "Proyectar escenas distantes en un velo circular para ver otros planos o dimensiones."  
+                    },
+                    {
+                    "nombre": "Replication of Beyonder Power",
+                    "descripcion": "Puede replicar (reenact) poderes beyonder sin necesidad de grabarlos, si tiene suficiente conocimiento."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [
+                    { "nombre": "Active Void", "cantidad": 1 },
+                    { "nombre": "Interdimensional Hunter’s Brain", "cantidad": 1 }
+                    ],
+                    "ingredientes_secundarios": [
+                    { "nombre": "Purple Phoenix’s Eye (alternativo)", "cantidad": 1 }
+                    ]
+                }
+                },
+                {
+                "nivel": 1,
+                "nombre": "Key of Stars",
+                "habilidades": [
+                    {
+                    "nombre": "Space Fragmentation / Gravity Manipulation",
+                    "descripcion": "Puede manipular la gravedad o el espacio usando el poder de las estrellas."  
+                    },
+                    {
+                    "nombre": "Position Authority",
+                    "descripcion": "Nunca pierde su ubicación; puede rastrear la posición de otros o impedir que lo rastreen."  
+                    },
+                    {
+                    "nombre": "Sealing Authority (Maze)",
+                    "descripcion": "Crear laberintos espacio-temporales y sellar conceptos o ubicaciones usando estrellas como puertas."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [
+                    { "nombre": "Key of Stars Beyonder Characteristic", "cantidad": 1 }
+                    ],
+                    "ingredientes_secundarios": [
+                    { "nombre": "Compass tied to Astral World", "cantidad": 1 },
+                    { "nombre": "Core of a Wandering Asteroid", "cantidad": 1 },
+                    { "nombre": "Favorite Food or Drink", "cantidad": 1 }
+                    ]
+                }
+                },
+                {
+                "nivel": 0,
+                "nombre": "Door",
+                "habilidades": [
+                    {
+                    "nombre": "Space Mastery / Door Authority",
+                    "descripcion": "Autoridad sobre el espacio, puertas y mundos alternos: puede abrir o cerrar puertas dimensionales a voluntad."  
+                    },
+                    {
+                    "nombre": "Concealment (Unutterable)",
+                    "descripcion": "Puede volverse inobservable mediante métodos beyonder, ocultando su presencia o la de sus espacios."  
+                    },
+                    {
+                    "nombre": "Replication (Symbolic)",
+                    "descripcion": "Crear réplicas simbólicas de sí mismo, manipulando su forma como portales o llaves."  
+                    }
+                ],
+                "pocion": {
+                    "ingredientes_principales": [
+                    { "nombre": "Door Uniqueness", "cantidad": 1 },
+                    { "nombre": "All Key of Stars Characteristics", "cantidad": 3 }
+                    ],
+                    "ingredientes_secundarios": [
+                    { "nombre": "Knowledge of ≥3 galactic systems (astronomical, geographic, folkloric)", "cantidad": 1 }
+                    ]
+                }
+                }
+            ]
+        },
+        "Visionary": {
+      "nombre": "Visionary Pathway",
+      "descripcion": "Camino del Visionario: especializado en manipulación psicológica, lectura mental, análisis del subconsciente, control de sueños, visualización e imaginación que puede materializarse en la realidad.",
+      "imagen": "https://static.wikia.nocookie.net/lord-of-the-mystery/images/3/34/Visionary_Symbol2.png/revision/latest?cb=20230527154359",
+
+      "secuencias": [
+        {
+          "nivel": 9,
+          "nombre": "Spectator",
+          "habilidades": [
+            {
+              "nombre": "Enhanced Mental Attributes",
+              "descripcion": "Mejora en inferencia, análisis, observación, identificación y memoria. Permite una mente muy aguda para deducir patrones."  
+            },
+            {
+              "nombre": "Body Language Analysis",
+              "descripcion": "Perciben los pensamientos reales de otros analizando sus expresiones, postura y giros subconscientes para construir un modelo mental del objetivo."  
+            },
+            {
+              "nombre": "Enhanced Vision",
+              "descripcion": "Vista muy afinada que permite observar detalles físicos sutiles en otros, incluso a distancia."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 8,
+          "nombre": "Telepathist",
+          "habilidades": [
+            {
+              "nombre": "Mind Reading",
+              "descripcion": "Capacidad para leer pensamientos superficiales de otros, así como simular la trayectoria futura de esos pensamientos."  
+            },
+            {
+              "nombre": "Profundo Body Language Analysis",
+              "descripcion": "Observan no solo el lenguaje corporal superficial, sino también auras, su cuerpo etéreo y señales misteriosas más profundas."  
+            },
+            {
+              "nombre": "Visión Mejorada",
+              "descripcion": "La agudeza visual se incrementa aún más, permitiendo ver con claridad más allá de lo normal."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 7,
+          "nombre": "Psychiatrist",
+          "habilidades": [
+            {
+              "nombre": "Frenzy",
+              "descripcion": "Pueden inducir estados emocionales intensos en su objetivo, causando daño psicológico y desestabilización del control mental."  
+            },
+            {
+              "nombre": "Telepathy / Hypnotic Communication",
+              "descripcion": "Mediante hipnosis o medios como velas y extractos, comunican con la mente profunda del objetivo, incluso a nivel del alma y los sueños."  
+            },
+            {
+              "nombre": "Psychological Cue",
+              "descripcion": "Implantan sugerencias o promesas subconscientes en la psique del objetivo, que este creyó haber decidido por sí mismo."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 5,
+          "nombre": "Dreamwalker",
+          "habilidades": [
+            {
+              "nombre": "Alteration (Sueños)",
+              "descripcion": "Modifican los sueños de otros para plantar ideas, secretos o influenciar su subconsciente sin que se den cuenta."  
+            },
+            {
+              "nombre": "Guidance (Guía)",
+              "descripcion": "Dirigen el sueño de alguien para que revele sus secretos más profundos o haga lo que ellos desean mientras duerme."  
+            },
+            {
+              "nombre": "Dream Traversal",
+              "descripcion": "Su cuerpo físico y espiritual se vuelve incorpóreo dentro de los sueños; pueden saltar entre los sueños de diferentes personas."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 4,
+          "nombre": "Manipulator",
+          "habilidades": [
+            {
+              "nombre": "Manipulation del Subconsciente",
+              "descripcion": "Entrar al subconsciente de otros (Mind Island) para cambiar sus pensamientos, implantar ideas o controlar su psique."  
+            },
+            {
+              "nombre": "Mental Plague",
+              "descripcion": "Introducir semillas de corrupción mental que se extienden como una plaga en la mente de las personas y su entorno espiritual."  
+            },
+            {
+              "nombre": "Virtual Personas",
+              "descripcion": "Crear hasta 13 avatares mentales con sus propias psique para espiar, manipular o defenderse en el mundo mental."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 2,
+          "nombre": "Discerner",
+          "habilidades": [
+            {
+              "nombre": "Dream Maze",
+              "descripcion": "Crear un laberinto de sueños mental que conecta las Islas Mentales de varias personas, permitiendo interrogación o manipulación profunda."  
+            },
+            {
+              "nombre": "Discernment (Discernimiento)",
+              "descripcion": "Identificar las vulnerabilidades psicológicas más íntimas del objetivo, sus miedos más profundos y conexiones causales."  
+            },
+            {
+              "nombre": "Dream Weaving Potenciado",
+              "descripcion": "Sus ilusiones mentales son tan reales que pueden traspasar lo onírico y volverse parte de la realidad física."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 1,
+          "nombre": "Author (Fairytale)",
+          "habilidades": [
+            {
+              "nombre": "Dream of Reality",
+              "descripcion": "Pueden entrelazar sueños con la realidad para crear entidades o fenómenos que parecen imaginarios pero son reales."  
+            },
+            {
+              "nombre": "Coincidence (Coincidencia)",
+              "descripcion": "Manipulan la probabilidad para que eventos improbables ocurran como resultados de su voluntad, como si fueran historias."  
+            },
+            {
+              "nombre": "Autoridad de Envisioning",
+              "descripcion": "Su fantasía se convierte en realidad: lo que imaginan puede manifestarse físicamente."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 0,
+          "nombre": "Visionary",
+          "habilidades": [
+            {
+              "nombre": "Envisioning (Fantasy into Reality)",
+              "descripcion": "Controlan su imaginación de forma que lo que visualizan puede materializarse en la realidad física."  
+            },
+            {
+              "nombre": "Dominio del Mundo Mental",
+              "descripcion": "Gobiernan la isla mental, la consciencia colectiva y los conceptos mentales, con influencia casi omnisciente en lo psicológico."  
+            },
+            {
+              "nombre": "Autoridad del Sueño y la Pérdida de Control",
+              "descripcion": "Tienen poder sobre los sueños ajenos y pueden manipular la psique hasta provocar pérdida de control mental."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        }
+      ]
+    },
+
+    "Sun": {
+      "nombre": "Sun Pathway",
+      "descripcion": "Camino del Sol: especializado en luz, purificación, caza de monstruos, resistencia física extrema, creación de llamas solares, habilidades de combate directo y destrucción de criaturas sobrenaturales.",
+      "imagen": "https://static.wikia.nocookie.net/lord-of-the-mystery/images/9/92/Sun_Symbol2.png/revision/latest?cb=20230527154422",
+
+      "secuencias": [
+        {
+          "nivel": 9,
+          "nombre": "Warrior",
+          "habilidades": [
+            {
+              "nombre": "Enhanced Strength",
+              "descripcion": "Incremento notable de fuerza física, reflejos y resistencia."
+            },
+            {
+              "nombre": "Sunlight Resistance",
+              "descripcion": "Gran resistencia a ataques de fuego y luz, además de mayor tolerancia al dolor."
+            },
+            {
+              "nombre": "Basic Solar Heat",
+              "descripcion": "Generación mínima de calor corporal capaz de quemar ligeramente criaturas débiles."
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+
+        {
+          "nivel": 8,
+          "nombre": "Weapon Master",
+          "habilidades": [
+            {
+              "nombre": "Weapon Affinity",
+              "descripcion": "Dominio avanzado del combate con armas, especialmente espadas y lanzas."
+            },
+            {
+              "nombre": "Solar Fighting Technique",
+              "descripcion": "Golpes que generan ondas de choque solares."
+            },
+            {
+              "nombre": "Heat Burst",
+              "descripcion": "Capacidad de emitir calor desde el cuerpo para repeler enemigos cercanos."
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+
+        {
+          "nivel": 7,
+          "nombre": "Dawn Paladin",
+          "habilidades": [
+            {
+              "nombre": "Radiant Aura",
+              "descripcion": "Emitir un aura solar que debilita monstruos, espectros y corrupciones."
+            },
+            {
+              "nombre": "Dawn Sword",
+              "descripcion": "Concentrar luz solar en el arma para aumentar su daño."
+            },
+            {
+              "nombre": "Purification",
+              "descripcion": "Purificar enfermedades menores y energías espirituales débiles."
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+
+        {
+          "nivel": 6,
+          "nombre": "Notary",
+          "habilidades": [
+            {
+              "nombre": "Oath Registration",
+              "descripcion": "Registrar promesas, contratos o pactos con efecto vinculante sobrenatural."
+            },
+            {
+              "nombre": "Truth Detection",
+              "descripcion": "Detectar mentiras o verdades parciales de forma intuitiva."
+            },
+            {
+              "nombre": "Holy Seal",
+              "descripcion": "Crear sellos solares que protegen o marcan personas y objetos."
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+
+        {
+          "nivel": 5,
+          "nombre": "Judge",
+          "habilidades": [
+            {
+              "nombre": "Solar Verdict",
+              "descripcion": "Emitir juicios que afectan la psique del objetivo, generando culpa o presión moral."
+            },
+            {
+              "nombre": "Binding Light",
+              "descripcion": "Luz solar que inmoviliza seres espirituales y monstruos."
+            },
+            {
+              "nombre": "Heat Conduction",
+              "descripcion": "Capacidad de enviar calor a través de objetos o armas."
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+
+        {
+          "nivel": 4,
+          "nombre": "Arbiter",
+          "habilidades": [
+            {
+              "nombre": "Great Purification",
+              "descripcion": "Purificación avanzada capaz de eliminar maldiciones y espíritus corruptos."
+            },
+            {
+              "nombre": "Solar Chains",
+              "descripcion": "Crear cadenas de luz para inmovilizar enemigos místicos."
+            },
+            {
+              "nombre": "Authority of Order",
+              "descripcion": "Presencia imponente que obliga a obedecer órdenes simples."
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+
+        {
+          "nivel": 3,
+          "nombre": "Demon Hunter",
+          "habilidades": [
+            {
+              "nombre": "Solar Flame",
+              "descripcion": "Llamas solares que dañan fuertemente a seres sobrenaturales."
+            },
+            {
+              "nombre": "Monster Tracker",
+              "descripcion": "Detectar monstruos por su rastro espiritual, olor o calor residual."
+            },
+            {
+              "nombre": "Superhuman Body",
+              "descripcion": "Velocidad, fuerza y resistencia extremadamente elevadas."
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+
+        {
+          "nivel": 2,
+          "nombre": "Light Priest",
+          "habilidades": [
+            {
+              "nombre": "Sun Blessing",
+              "descripcion": "Bendiciones solares que fortalecen aliados y purifican energía negativa."
+            },
+            {
+              "nombre": "Solar Storm",
+              "descripcion": "Descargas de luz y calor que afectan áreas grandes."
+            },
+            {
+              "nombre": "Exorcism",
+              "descripcion": "Expulsar espíritus malignos o entidades parasitarias."
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+
+        {
+          "nivel": 1,
+          "nombre": "Shepherd",
+          "habilidades": [
+            {
+              "nombre": "Sun Domain",
+              "descripcion": "Crear un dominio solar que quema monstruos y purifica espacios."
+            },
+            {
+              "nombre": "Guiding Light",
+              "descripcion": "Luz que revela ilusiones, corrupciones y presencias ocultas."
+            },
+            {
+              "nombre": "Sun Mantle",
+              "descripcion": "Conversión de luz en un manto protector casi indestructible."
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+
+        {
+          "nivel": 0,
+          "nombre": "Angel of the Sun (Sun)",
+          "habilidades": [
+            {
+              "nombre": "Solar Authority",
+              "descripcion": "Control absoluto sobre la luz, el calor y la purificación."
+            },
+            {
+              "nombre": "Judgement of Dawn",
+              "descripcion": "Luz solar capaz de borrar corrupciones, espíritus malignos y entidades demoníacas."
+            },
+            {
+              "nombre": "Unholy Eradication",
+              "descripcion": "Destrucción completa de seres corruptos o abominaciones."
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        }
+      ]
+    },
+    "Tyrant": {
+      "nombre": "Tyrant Pathway",
+      "descripcion": "Camino del Tirano: especializado en el control del agua, tormentas, viento, electricidad, manipulación del clima, dominio sobre criaturas marinas, y creación de calamidades.",
+      "imagen": "https://static.wikia.nocookie.net/lord-of-the-mystery/images/1/1a/Tyrant_Symbol2.png/revision/latest?cb=20230527154520",
+
+      "secuencias": [
+        {
+          "nivel": 9,
+          "nombre": "Sailor (Keeper of the Seas)",
+          "habilidades": [
+            {
+              "nombre": "Aquatic Affinity",
+              "descripcion": "Capacidad para moverse bajo el agua con facilidad, bucear sin equipo y permanecer sumergido."  
+            },
+            {
+              "nombre": "Phantom Scales",
+              "descripcion": "Escamas ilusorias en su piel que los hacen resbaladizos y más difíciles de herir."  
+            },
+            {
+              "nombre": "Balance (Storm-proof)",
+              "descripcion": "Excelente equilibrio, incluso en un barco durante tormentas violentas."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "Murloc's Bladder", "cantidad": 1 },
+              { "nombre": "Man-eating Conch", "cantidad": 1 }
+            ],
+            "ingredientes_secundarios": [
+              { "nombre": "Strong Liquor", "cantidad": 300 },
+              { "nombre": "Seawater", "cantidad": 200 },
+              { "nombre": "Murloc Scales", "cantidad": 3 },
+              { "nombre": "Seaweed Extract Drops", "cantidad": 12 },
+              { "nombre": "Own Blood Drops", "cantidad": 9 }
+            ]
+          }
+        },
+        {
+          "nivel": 8,
+          "nombre": "Folk of Rage (Guardian of the Windstorm)",
+          "habilidades": [
+            {
+              "nombre": "Wrath",
+              "descripcion": "Cuando se enfurece, su fuerza y velocidad aumentan considerablemente."  
+            },
+            {
+              "nombre": "Raging Blow",
+              "descripcion": "Un golpe poderoso cargado por su ira acumulada."  
+            },
+            {
+              "nombre": "Physical Enhancement (Storm-tier)",
+              "descripcion": "Incremento muy alto en fuerza, velocidad y resistencia, como una tormenta en movimiento."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "Deep-diver’s Alveoli", "cantidad": 1 },
+              { "nombre": "War-cry Bird’s Breastbone", "cantidad": 1 }
+            ],
+            "ingredientes_secundarios": [
+              { "nombre": "Strong Liquor", "cantidad": 500 },
+              { "nombre": "Half Deep-diver’s Tongue", "cantidad": 1 },
+              { "nombre": "Beak Segment of War-cry Bird", "cantidad": 1 },
+              { "nombre": "Red Algae Essential Oil Drops", "cantidad": 10 }
+            ]
+          }
+        },
+        {
+          "nivel": 7,
+          "nombre": "Seafarer (Windstorm Priest)",
+          "habilidades": [
+            {
+              "nombre": "Exploration & Navigation",
+              "descripcion": "Gran habilidad para explorar los mares, descubrir rutas, leer el clima y navegar."  
+            },
+            {
+              "nombre": "Weather Awareness",
+              "descripcion": "Intuición muy desarrollada para cambios del clima, tormentas y corrientes marinas."  
+            },
+            {
+              "nombre": "Wind-blessed Flight / Glide",
+              "descripcion": "Capacidad para planear o moverse en el aire usando el viento, como si estuviera bendecido por las corrientes."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "Pituitary Gland of a Black-Scaled Shark", "cantidad": 1 },
+              { "nombre": "Heart of a Raging White Dolphin", "cantidad": 1 }
+            ],
+            "ingredientes_secundarios": [
+              { "nombre": "Strong Liquor", "cantidad": 500 },
+              { "nombre": "Black-scaled Shark Fin", "cantidad": 1 },
+              { "nombre": "White Dolphin Blood", "cantidad": 100 },
+              { "nombre": "Blue Star Coral Branch", "cantidad": 1 },
+              { "nombre": "Crystal", "cantidad": 1 }
+            ]
+          }
+        },
+        {
+          "nivel": 6,
+          "nombre": "Wind-blessed",
+          "habilidades": [
+            {
+              "nombre": "Wind Manipulation",
+              "descripcion": "Control del viento para generar ráfagas, corrientes aéreas o usar el viento como arma."  
+            },
+            {
+              "nombre": "Air Mobility",
+              "descripcion": "Alta agilidad en el aire, pudiendo moverse con gran libertad en corrientes de aire."  
+            },
+            {
+              "nombre": "Storm Sensibility",
+              "descripcion": "Sensibilidad sobrenatural para percibir tormentas inminentes, corrientes de viento, cambios atmosféricos."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "Feathers of a Blue Shadow Falcon", "cantidad": 6 },
+              { "nombre": "Eyeballs of a Sea Condor (Dragon-Eyed)", "cantidad": 2 }
+            ],
+            "ingredientes_secundarios": [
+              { "nombre": "High-Purity Liquor", "cantidad": 500 },
+              { "nombre": "Blue Shadow Falcon Bone", "cantidad": 1 },
+              { "nombre": "Sea Condor Feathers", "cantidad": 2 },
+              { "nombre": "Pure Rainwater", "cantidad": 30 },
+              { "nombre": "Dawn Breeze (captured)", "cantidad": 1 }
+            ]
+          }
+        },
+        {
+          "nivel": 5,
+          "nombre": "Ocean Songster",
+          "habilidades": [
+            {
+              "nombre": "Sonic / Vocal Manipulation",
+              "descripcion": "Utiliza su voz de forma mística para afectar el agua, manipular criaturas o generar poder."  
+            },
+            {
+              "nombre": "Sea Creature Influence",
+              "descripcion": "Puede comunicarse con criaturas marinas, calmarlas o comandarlas."  
+            },
+            {
+              "nombre": "Water Resonance",
+              "descripcion": "Resuena con las olas para amplificar su poder o moverse con el flujo del mar."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "Siren’s Throat", "cantidad": 1 },
+              { "nombre": "Jellyfish Crystal Cluster", "cantidad": 1 }
+            ],
+            "ingredientes_secundarios": [
+              { "nombre": "Strong Liquor", "cantidad": 500 },
+              { "nombre": "Siren Hair Strands", "cantidad": 5 },
+              { "nombre": "Jellyfish Tentacles", "cantidad": 5 },
+              { "nombre": "Tide-shell", "cantidad": 1 },
+              { "nombre": "Porous Coral Branch", "cantidad": 1 }
+            ]
+          }
+        },
+        {
+          "nivel": 4,
+          "nombre": "Cataclysmic Interrer",
+          "habilidades": [
+            {
+              "nombre": "Calamity Creation",
+              "descripcion": "Poder para generar desastres naturales masivos como tsunamis, tormentas y terremotos."  
+            },
+            {
+              "nombre": "Weather Control",
+              "descripcion": "Manipulación avanzada del clima: viento, lluvia, tormentas eléctricas."  
+            },
+            {
+              "nombre": "Tyranny Authority",
+              "descripcion": "Presencia dominante que impone miedo y autoridad sobre los elementos y seres."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "Stomach of a Whale of Punishment", "cantidad": 1 },
+              { "nombre": "Blood Crystal of a Vortex Terror-Beast", "cantidad": 1 }
+            ],
+            "ingredientes_secundarios": [
+              { "nombre": "Gastric Fluid (Whale)", "cantidad": 500 },
+              { "nombre": "Tentacle of Vortex Terror-Beast", "cantidad": 1 },
+              { "nombre": "Spring Water of Elves", "cantidad": 50 },
+              { "nombre": "Mucus of Deep-diver Leader", "cantidad": 10 },
+              { "nombre": "Hair/Nail of Shipwreck Survivor", "cantidad": 1 }
+            ]
+          }
+        },
+        {
+          "nivel": 3,
+          "nombre": "Sea King",
+          "habilidades": [
+            {
+              "nombre": "Wrath of the Sea",
+              "descripcion": "Puede invocar tsunamis u olas gigantes para atacar o bloquear a sus enemigos."  
+            },
+            {
+              "nombre": "Sea Mastery",
+              "descripcion": "Gobierna sobre criaturas marinas, puede convocar y comandar múltiples seres del océano."  
+            },
+            {
+              "nombre": "Elemental Fusion (Water / Lightning / Wind)",
+              "descripcion": "Combina el control sobre agua, viento y electricidad para desatar ataques devastadores."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "Deep-Sea Python Skull", "cantidad": 1 },
+              { "nombre": "Eye of the King of Green Wings", "cantidad": 1 }
+            ],
+            "ingredientes_secundarios": [
+              { "nombre": "Blue Blood of the King of Green Wings", "cantidad": 600 },
+              { "nombre": "Deep-Sea Python Fang", "cantidad": 1 },
+              { "nombre": "Idol with Sea-God Faith", "cantidad": 1 },
+              { "nombre": "Fish Roe Paste (many kinds)", "cantidad": 10 },
+              { "nombre": "Sun-dried Sea Salt", "cantidad": 50 }
+            ]
+          }
+        },
+        {
+          "nivel": 2,
+          "nombre": "Calamity",
+          "habilidades": [
+            {
+              "nombre": "Storm Compression",
+              "descripcion": "Puede encapsular la furia de un huracán o tormenta en sí mismo para desatarla con un solo gesto."  
+            },
+            {
+              "nombre": "Disaster Mastery",
+              "descripcion": "Capacidad para convocar o controlar desastres naturales de gran escala."  
+            },
+            {
+              "nombre": "Terror Inducement",
+              "descripcion": "Su presencia como Calamidad genera miedo masivo, como si fuera la encarnación de la destrucción."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "Calamity Characteristic (Queen or King)", "cantidad": 1 }
+            ],
+            "ingredientes_secundarios": [
+              { "nombre": "Remains of Historic Disaster", "cantidad": 1 },
+              { "nombre": "Deep-Sea King Blood", "cantidad": 600 },
+              { "nombre": "Elf Ancestor Tree Leaves", "cantidad": 3 },
+              { "nombre": "Hair from People Who Died of Fear", "cantidad": 1000 }
+            ]
+          }
+        },
+        {
+          "nivel": 1,
+          "nombre": "Thunder God",
+          "habilidades": [
+            {
+              "nombre": "Lightning Manipulation",
+              "descripcion": "Control sobre rayos y electricidad con gran potencia destructiva."  
+            },
+            {
+              "nombre": "Speed of Light Travel",
+              "descripcion": "Puede moverse con una velocidad altísima, casi equiparable a la velocidad de la luz."  
+            },
+            {
+              "nombre": "Thunder Authority",
+              "descripcion": "Presencia divina que impone temor por su poder sobre el trueno."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "Thunder God Beyonder Characteristic", "cantidad": 1 }
+            ],
+            "ingredientes_secundarios": [
+              { "nombre": "Lightning Fragment (Astral)", "cantidad": 1 },
+              { "nombre": "Nightmare Swamp Stone", "cantidad": 1 }
+            ]
+          }
+        },
+        {
+          "nivel": 0,
+          "nombre": "Tyrant",
+          "habilidades": [
+            {
+              "nombre": "Tyranny",
+              "descripcion": "Autoridad suprema sobre los elementos: tormenta, viento, agua, relámpago; su voluntad impone dolor y miedo."  
+            },
+            {
+              "nombre": "Calamity Creation (God-level)",
+              "descripcion": "Puede desencadenar desastres globales: huracanes, tsunamis, tormentas eléctricas de escala divina."  
+            },
+            {
+              "nombre": "Sea Dominion",
+              "descripcion": "Control absoluto sobre el mar y las criaturas marinas, dominando océanos como un monarca divino."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "Tyrant Uniqueness", "cantidad": 1 },
+              { "nombre": "All Thunder God Characteristics (except own)", "cantidad": 1 }
+            ],
+            "ingredientes_secundarios": [
+              { "nombre": "Sufficient Blood of a God", "cantidad": 1 }
+            ]
+          }
+        }
+      ]
+    },
+    "WhiteTower": {
+      "nombre": "White Tower Pathway",
+      "descripcion": "Camino de la Torre Blanca: centrado en el conocimiento, el análisis, la imitación de poderes mediante estudio, la profecía, la magia ritual y el dominio de la sabiduría hasta alcanzar la omnisciencia.",
+      "imagen": "https://static.wikia.nocookie.net/lord-of-the-mystery/images/d/dc/White_Tower_Symbol2.png/revision/latest?cb=20230527154548",
+      
+      "secuencias": [
+        {
+          "nivel": 9,
+          "nombre": "Reader",
+          "habilidades": [
+            {
+              "nombre": "Enhanced Mental Attributes",
+              "descripcion": "Gran mejora en razonamiento, memoria y capacidad de aprendizaje."  
+            },
+            {
+              "nombre": "Ritualistic Magic & Divination",
+              "descripcion": "Capacidad para emplear magia ritual y artes de adivinación gracias a su espiritualidad fortalecida."  
+            },
+            {
+              "nombre": "Espiritualidad Mejorada",
+              "descripcion": "Su espiritualidad se eleva al digerir la poción, lo que potencia sus habilidades mágicas."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "Reader Beyonder Characteristic", "cantidad": 1 }
+            ],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 8,
+          "nombre": "Student of Ratiocination",
+          "habilidades": [
+            {
+              "nombre": "Razonamiento Lógico Mejorado",
+              "descripcion": "Capacidad para deducir lógicas complejas, analizar situaciones y obtener conclusiones profundas a partir de datos."  
+            },
+            {
+              "nombre": "Observación Agudizada",
+              "descripcion": "Uso de todos los sentidos para recopilar información detallada del entorno."  
+            },
+            {
+              "nombre": "Experto en Magia Ritual y Adivinación",
+              "descripcion": "Mayor dominio de artes rituales y adivinatorias gracias a la espiritualidad incrementada."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "Student of Ratiocination Beyonder Characteristic", "cantidad": 1 }
+            ],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 7,
+          "nombre": "Detective (Knowledge Keeper)",
+          "habilidades": [
+            {
+              "nombre": "Mobilidad Física Mejorada",
+              "descripcion": "Mayor velocidad y agilidad para investigar, perseguir pistas o moverse con eficacia."  
+            },
+            {
+              "nombre": "Competencia en Combate",
+              "descripcion": "Dominio de armas y equipamientos, con capacidad para combate cuerpo a cuerpo decente."  
+            },
+            {
+              "nombre": "Reconstrucción de Eventos",
+              "descripcion": "Pueden reconstruir eventos pasados analizando rastros místicos u observaciones ocultas."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "Detective Beyonder Characteristic", "cantidad": 1 }
+            ],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 6,
+          "nombre": "Polymath",
+          "habilidades": [
+            {
+              "nombre": "Analysis",
+              "descripcion": "Capacidad para analizar poderes beyonder de otras personas, identificando su naturaleza y funcionamiento."  
+            },
+            {
+              "nombre": "Imitación de Poderes",
+              "descripcion": "Después de analizar, pueden imitar esos poderes, aunque con potencia algo menor que el original."  
+            },
+            {
+              "nombre": "Erudición Multidisciplinaria",
+              "descripcion": "Dominio de muchos campos del conocimiento: ciencia, ocultismo, filosofía, etc."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "Polymath Beyonder Characteristic", "cantidad": 1 }
+            ],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 5,
+          "nombre": "Mysticism Magister",
+          "habilidades": [
+            {
+              "nombre": "Creación de Hechizos",
+              "descripcion": "Capaz de inventar y lanzar sus propios hechizos únicos, basados en su conocimiento."  
+            },
+            {
+              "nombre": "Magia Ritual Avanzada",
+              "descripcion": "Gran experiencia en rituales complejos y místicos."  
+            },
+            {
+              "nombre": "Mejora de Imitación y Análisis",
+              "descripcion": "Su capacidad de analizar e imitar se fortalece significativamente."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "Mysticism Magister Beyonder Characteristic", "cantidad": 1 }
+            ],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 4,
+          "nombre": "Prophet",
+          "habilidades": [
+            {
+              "nombre": "Profecía",
+              "descripcion": "Capacidad para prever eventos futuros basándose en conocimiento arcano y místico."  
+            },
+            {
+              "nombre": "Magia de Alto Nivel",
+              "descripcion": "Uso más profundo y sofisticado de símbolos, sellos y rituales poderosos."  
+            },
+            {
+              "nombre": "Capacidad Analítica Elevada",
+              "descripcion": "Desentrañar símbolos y secretos ocultos con facilidad."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "Prophet Beyonder Characteristic", "cantidad": 1 }
+            ],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 3,
+          "nombre": "Cognizer",
+          "habilidades": [
+            {
+              "nombre": "Insight Profundo",
+              "descripcion": "Comprende las leyes fundamentales del mundo, reglas místicas y estructuras ocultas."  
+            },
+            {
+              "nombre": "Análisis de Símbolos",
+              "descripcion": "Puede leer símbolos complejos y derivar hechizos o técnicas a partir de ellos."  
+            },
+            {
+              "nombre": "Motores de Conocimiento (Fulcrum)",
+              "descripcion": "Utiliza su conocimiento como punto de apoyo para mover ideas, influenciar situaciones o resolver problemas estratégicamente."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "Cognizer Beyonder Characteristic", "cantidad": 1 }
+            ],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 2,
+          "nombre": "Wisdom Angel",
+          "habilidades": [
+            {
+              "nombre": "Sabiduría Suprema",
+              "descripcion": "Toma decisiones casi siempre correctas gracias a su capacidad analítica y visionaria del conocimiento."  
+            },
+            {
+              "nombre": "Profundización Espiritual",
+              "descripcion": "Su espiritualidad alcanza un plano elevado, integrando conocimiento místico profundo."  
+            },
+            {
+              "nombre": "Autoridad del Conocimiento",
+              "descripcion": "Su presencia impone respeto intelectual y autoridad sobre temas místicos y científicos."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "Wisdom Angel Beyonder Characteristic", "cantidad": 1 }
+            ],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 1,
+          "nombre": "Omniscient Eye",
+          "habilidades": [
+            {
+              "nombre": "Omnisciencia Parcial",
+              "descripcion": "Puede observar grandes cantidades de información sobre lo pasado, presente y futuro."  
+            },
+            {
+              "nombre": "Percepción Total",
+              "descripcion": "Ve más allá de las apariencias: entiende intenciones, debilidades, y posibilidades ocultas."  
+            },
+            {
+              "nombre": "Conocimiento Estratégico",
+              "descripcion": "Utiliza su sabiduría para planear con un entendimiento profundo de las estructuras del poder y el destino."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "Omniscient Eye Beyonder Characteristic", "cantidad": 1 }
+            ],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 0,
+          "nombre": "White Tower",
+          "habilidades": [
+            {
+              "nombre": "Omnisciencia Absoluta",
+              "descripcion": "Autoridad total sobre el conocimiento: puede comprender la totalidad de la realidad, pasado, presente y futuro."  
+            },
+            {
+              "nombre": "Creación de Magia Perfecta",
+              "descripcion": "Capacidad para inventar hechizos poderosos y nuevos rituales que pueden alterar las reglas del mundo."  
+            },
+            {
+              "nombre": "Autoridad del Conocimiento Eterno",
+              "descripcion": "Su presencia representa una torre de sabiduría: todos los secretos le son accesibles y su palabra es conocimiento."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [
+              { "nombre": "The White Tower Uniqueness", "cantidad": 1 },
+              { "nombre": "Omniscient Eye Beyonder Characteristic (otros)", "cantidad": 1 }
+            ],
+            "ingredientes_secundarios": []
+          }
+        }
+      ]
+    },
+    "Hanged Man": {
+            "nombre": "Hanged Man",
+            "descripcion": "El Camino del Ahorcado pertenece al Orden del Misterio y se centra en el misticismo, la espiritualidad profunda y el uso de poderes relacionados con rituales, intuición, sacrificio y manipulación espiritual. Sus practicantes tienen gran afinidad con el mundo oculto, las almas, la percepción de la verdad y la divinación. Es uno de los Caminos más esotéricos y peligrosos debido a los límites difusos entre la cordura y lo espiritual.",
+            "imagen": "https://static.wikia.nocookie.net/lord-of-the-mystery/images/6/62/Hanged_Man_Symbol2.png/revision/latest?cb=20230527154444",
+
+            "secuencias": [
+                {
+                    "nivel": 9,
+                    "nombre": "Apprentice",
+                    "habilidades": [
+                        {
+                            "nombre": "Intuición Aumentada",
+                            "descripcion": "Percepción espiritual básica que permite sentir presencias, emociones fuertes o peligros inminentes."
+                        },
+                        {
+                            "nombre": "Sensibilidad Oculta",
+                            "descripcion": "Capacidad de detectar objetos o influencias cargadas de energía mística."
+                        },
+                        {
+                            "nombre": "Memoria Ritual Básica",
+                            "descripcion": "El usuario puede ejecutar rituales simples de espiritismo o protección."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Fragmento de espíritu puro", "cantidad": 1 },
+                            { "nombre": "Esencia ritualística lunar", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Agua bendita oscura", "cantidad": 1 },
+                            { "nombre": "Cenizas de incienso místico", "cantidad": 2 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 8,
+                    "nombre": "Spirit Medium",
+                    "habilidades": [
+                        {
+                            "nombre": "Comunión Espiritual",
+                            "descripcion": "Permite interactuar con espíritus débiles o fragmentados, escuchar susurros y obtener información."
+                        },
+                        {
+                            "nombre": "Vista Espiritual",
+                            "descripcion": "El usuario puede ver entidades espirituales y rastros energéticos invisibles."
+                        },
+                        {
+                            "nombre": "Canalización Controlada",
+                            "descripcion": "Ejecuta rituales de invocación menores con seguridad moderada."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Esencia de espíritu atrapado", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Aceite ritual de loto negro", "cantidad": 1 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 7,
+                    "nombre": "Spirit Guide",
+                    "habilidades": [
+                        {
+                            "nombre": "Guía de Almas",
+                            "descripcion": "Capacidad para calmar espíritus, guiarlos o redirigirlos hacia su destino."
+                        },
+                        {
+                            "nombre": "Rastreo Espiritual",
+                            "descripcion": "Puede seguir la huella energética de personas, espíritus u objetos."
+                        },
+                        {
+                            "nombre": "Amortiguación Emocional",
+                            "descripcion": "Reduce la influencia de emociones negativas o espíritus perturbadores."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Lágrima de espectro", "cantidad": 3 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Mineral resonante espiritual", "cantidad": 1 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 6,
+                    "nombre": "Spiritualist",
+                    "habilidades": [
+                        {
+                            "nombre": "Invocación Estable",
+                            "descripcion": "Invocación segura de espíritus medianos, permitiendo consultas complejas."
+                        },
+                        {
+                            "nombre": "Manipulación Energética",
+                            "descripcion": "Control básico de energía espiritual para protección o ataque leve."
+                        },
+                        {
+                            "nombre": "Rituales Avanzados",
+                            "descripcion": "Ejecución de rituales complejos para revelar secretos o sellar entidades."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Núcleo espiritual de aparecido", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Incienso profundo de mirra negra", "cantidad": 3 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 5,
+                    "nombre": "Soul Shepherd",
+                    "habilidades": [
+                        {
+                            "nombre": "Control de Espíritus",
+                            "descripcion": "Capacidad de ordenar, dirigir o utilizar espíritus como auxiliares temporales."
+                        },
+                        {
+                            "nombre": "Escudo Anímico",
+                            "descripcion": "Una barrera espiritual defensiva contra maldiciones y entidades."
+                        },
+                        {
+                            "nombre": "Purificación Espiritual",
+                            "descripcion": "Puede limpiar corrupción espiritual o eliminar influencias externas."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Corazón espectral manifiesto", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Polvo de piedras del alma", "cantidad": 2 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 4,
+                    "nombre": "Spirit Warlock",
+                    "habilidades": [
+                        {
+                            "nombre": "Arsenal Espiritual",
+                            "descripcion": "Usa espíritus como armas o extensiones de su propia energía."
+                        },
+                        {
+                            "nombre": "Reforzamiento del Alma",
+                            "descripcion": "Aumenta la resistencia espiritual y mental."
+                        },
+                        {
+                            "nombre": "Conexión Profunda",
+                            "descripcion": "Puede interactuar con dominios espirituales más complejos."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Ectoplasma cristalizado", "cantidad": 2 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Raíz ritual de árbol sagrado", "cantidad": 1 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 3,
+                    "nombre": "Spirit Medium King",
+                    "habilidades": [
+                        {
+                            "nombre": "Dominio Espiritual",
+                            "descripcion": "Control casi total sobre espíritus avanzados."
+                        },
+                        {
+                            "nombre": "Exploración Astral",
+                            "descripcion": "Puede proyectar su conciencia para obtener conocimiento o información oculta."
+                        },
+                        {
+                            "nombre": "Canalización Extrema",
+                            "descripcion": "Capaz de invocar entidades muy poderosas con riesgos manejables."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Corazón de espíritu mayor", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Sangre espiritual refinada", "cantidad": 2 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 2,
+                    "nombre": "Oracle",
+                    "habilidades": [
+                        {
+                            "nombre": "Profecía",
+                            "descripcion": "Acceso a revelaciones y visiones del futuro o posibilidades del destino."
+                        },
+                        {
+                            "nombre": "Verdad Desnuda",
+                            "descripcion": "Detecta mentiras, ilusiones o manipulaciones espirituales."
+                        },
+                        {
+                            "nombre": "Ritual de Omnividencia",
+                            "descripcion": "Consulta directa al plano espiritual superior para obtener conocimiento."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Esencia del alma eterna", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Fragmento de destino", "cantidad": 1 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 1,
+                    "nombre": "Ancient Spirit Envoy",
+                    "habilidades": [
+                        {
+                            "nombre": "Comando de Espíritus Antiguos",
+                            "descripcion": "Puede invocar, controlar o negociar con entidades inmensamente antiguas."
+                        },
+                        {
+                            "nombre": "Fusión Espiritual",
+                            "descripcion": "Temporalmente puede fusionarse con espíritus de alto nivel."
+                        },
+                        {
+                            "nombre": "Reescritura Energética",
+                            "descripcion": "Capacidad de alterar estructuras espirituales de objetos o seres."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Fracción de espíritu primordial", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Tinta ritual eterna", "cantidad": 1 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 0,
+                    "nombre": "The Hanged Man",
+                    "habilidades": [
+                        {
+                            "nombre": "Autoridad Absoluta sobre Espíritus",
+                            "descripcion": "Control total del plano espiritual y de todas sus entidades."
+                        },
+                        {
+                            "nombre": "Manifestación del Sacrificio",
+                            "descripcion": "Puede alterar destino, alma o energía sacrificando equivalentes metafísicos."
+                        },
+                        {
+                            "nombre": "Dominio del Misterio",
+                            "descripcion": "Comprende y controla conceptos espirituales superiores."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Sangre del espíritu primordial", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Núcleo de alma eterna", "cantidad": 1 }
+                        ]
+                    }
+                }
+            ]
+        },
+         "Darkness": {
+            "nombre": "Darkness",
+            "descripcion": "El Camino de la Oscuridad se centra en la manipulación de sombras, la ocultación, el sigilo extremo y el dominio de criaturas nocturnas o monstruos asociadas a la oscuridad. Sus usuarios pueden volverse indetectables, cazar desde la penumbra o convertirse en entidades vivientes de las sombras. Es uno de los Caminos más peligrosos debido a su tendencia a corromper la mente, consumir emociones y reducir el sentido de humanidad al volverse 'uno con la oscuridad'.",
+            "imagen": "https://tr.rbxcdn.com/180DAY-4a6e3c6eae2068d668610462a39bf616/420/420/Hat/Webp/noFilter",
+            "secuencias": [
+                {
+                    "nivel": 9,
+                    "nombre": "Night Watcher",
+                    "habilidades": [
+                        {
+                            "nombre": "Adaptación a la Penumbra",
+                            "descripcion": "Ve con claridad en ambientes de poca luz y distingue siluetas invisibles para personas normales."
+                        },
+                        {
+                            "nombre": "Alerta Sombría",
+                            "descripcion": "Percepción aumentada ante peligros ocultos, emboscadas o movimientos furtivos."
+                        },
+                        {
+                            "nombre": "Resistencia Mental Básica",
+                            "descripcion": "Cierta protección contra el miedo, paranoia o influencias derivadas de la oscuridad."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Sangre de murciélago nocturno", "cantidad": 1 },
+                            { "nombre": "Fragmento de sombra sólida", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Humo condensado de carbón", "cantidad": 2 },
+                            { "nombre": "Agua de cueva profunda", "cantidad": 1 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 8,
+                    "nombre": "Sleepless",
+                    "habilidades": [
+                        {
+                            "nombre": "Insomnio Controlado",
+                            "descripcion": "Puede permanecer despierto por largos periodos sin perder claridad mental."
+                        },
+                        {
+                            "nombre": "Vigilia Constante",
+                            "descripcion": "Inmunidad parcial a efectos de sueño, ilusiones oníricas y ataques mentales ligados a sueños."
+                        },
+                        {
+                            "nombre": "Oído Refinado",
+                            "descripcion": "Capacidad de detectar sonidos lejanos o sutiles en ambientes oscuros."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Glándula de criatura nocturna", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Extracto de raíz amarga", "cantidad": 1 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 7,
+                    "nombre": "Nightmare",
+                    "habilidades": [
+                        {
+                            "nombre": "Proyección de Pesadillas",
+                            "descripcion": "Induce miedo o visiones breves en objetivos cercanos."
+                        },
+                        {
+                            "nombre": "Sombras Intuitivas",
+                            "descripcion": "Las sombras del entorno revelan peligros y movimientos hostiles al usuario."
+                        },
+                        {
+                            "nombre": "Camuflaje en Oscuridad",
+                            "descripcion": "Se vuelve difícil de detectar en zonas oscuras o poco iluminadas."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Ectoplasma de ente nocturno", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Aceite de linterna negra", "cantidad": 2 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 6,
+                    "nombre": "Demoness of Despair (Varón: Demon of Despair)",
+                    "habilidades": [
+                        {
+                            "nombre": "Miedo Encarnado",
+                            "descripcion": "Puede generar una aura de pavor que afecta emocionalmente a enemigos."
+                        },
+                        {
+                            "nombre": "Absorción de Oscuridad",
+                            "descripcion": "Alimenta sus habilidades consumiendo luz o energía emocional negativa."
+                        },
+                        {
+                            "nombre": "Distorsión Sensorial",
+                            "descripcion": "Induce ilusiones simples basadas en oscuridad y miedo."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Corazón de bestia de pesadilla", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Sombra líquida destilada", "cantidad": 3 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 5,
+                    "nombre": "Shadow Warrior",
+                    "habilidades": [
+                        {
+                            "nombre": "Movimiento Silencioso",
+                            "descripcion": "Puede caminar sin producir sonido alguno."
+                        },
+                        {
+                            "nombre": "Ataque Sombrío",
+                            "descripcion": "Ataques más rápidos y potentes al atacar desde la oscuridad."
+                        },
+                        {
+                            "nombre": "Arsenal de Sombra",
+                            "descripcion": "Crea armas efímeras hechas de sombra condensada."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Sombra cristalizada de depredador", "cantidad": 2 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Esporas negras de hongo cavernoso", "cantidad": 1 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 4,
+                    "nombre": "Wraith",
+                    "habilidades": [
+                        {
+                            "nombre": "Fase Sombría",
+                            "descripcion": "Puede volverse parcialmente intangible al ingresar a las sombras."
+                        },
+                        {
+                            "nombre": "Desaparición Instantánea",
+                            "descripcion": "Teletransporte muy corto entre sombras cercanas."
+                        },
+                        {
+                            "nombre": "Mordida de Oscuridad",
+                            "descripcion": "Ataque espiritual que drena energía y vigor de la víctima."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Núcleo sombrío de espectro", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Humo ritual congelado", "cantidad": 2 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 3,
+                    "nombre": "Shadow of Despair",
+                    "habilidades": [
+                        {
+                            "nombre": "Oscuridad Extensiva",
+                            "descripcion": "Crea zonas amplias de oscuridad antinatural que bloquean luz mágica o normal."
+                        },
+                        {
+                            "nombre": "Infiltración Perfecta",
+                            "descripcion": "Puede cruzar puertas cerradas o grietas transformándose parcialmente."
+                        },
+                        {
+                            "nombre": "Aura de Desesperanza",
+                            "descripcion": "Reduce la moral, fuerza de voluntad y motivación de enemigos cercanos."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Esencia de sombra viva", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Tinta nocturna absoluta", "cantidad": 1 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 2,
+                    "nombre": "Dark Angel",
+                    "habilidades": [
+                        {
+                            "nombre": "Dominio de Sombras",
+                            "descripcion": "Control completo de sombras como tentáculos, armas o escudos."
+                        },
+                        {
+                            "nombre": "Asfixia de Oscuridad",
+                            "descripcion": "Envuelve a un objetivo en sombras que bloquean respiración y sentidos."
+                        },
+                        {
+                            "nombre": "Materialización Oscura",
+                            "descripcion": "Crea constructos sólidos hechos de pura oscuridad."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Pluma caída de ángel oscuro", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Energía de eclipse total", "cantidad": 1 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 1,
+                    "nombre": "Black Emperor",
+                    "habilidades": [
+                        {
+                            "nombre": "Soberanía Sombría",
+                            "descripcion": "Posee autoridad sobre toda oscuridad, sombras y criaturas de la noche."
+                        },
+                        {
+                            "nombre": "Destrucción Negra",
+                            "descripcion": "Ataques devastadores hechos de oscuridad pura."
+                        },
+                        {
+                            "nombre": "Conquista Emocional",
+                            "descripcion": "Puede sumir a multitudes en terror absoluto o desesperación."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Corona oscura de soberano caído", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Sombras de 1000 almas", "cantidad": 1 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 0,
+                    "nombre": "The Dark Side of the Universe",
+                    "habilidades": [
+                        {
+                            "nombre": "Encarnación Absoluta de la Oscuridad",
+                            "descripcion": "Es la oscuridad primordial que precede al universo. Control total sobre sombras, vacío y energía oscura."
+                        },
+                        {
+                            "nombre": "Ser del Vacío",
+                            "descripcion": "Puede existir fuera del espacio-tiempo y consumir energía cósmica."
+                        },
+                        {
+                            "nombre": "Anulación de la Luz",
+                            "descripcion": "Destruye o suprime cualquier fuente de luz física o espiritual."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Materia oscura primordial", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Energía del borde del universo", "cantidad": 1 }
+                        ]
+                    }
+                }
+            ]
+        },
+         "Death": {
+            "nombre": "Death",
+            "descripcion": "El Camino de la Muerte controla almas, cadáveres, espíritus, maldiciones y la energía negativa. Sus usuarios pueden comunicarse con muertos, manipular la vida y la muerte, resucitar cuerpos, crear espectros o convertirse en señores de la tumba. Es uno de los caminos más peligrosos debido a la corrosión espiritual, la pérdida de emociones y el riesgo de convertirse en un muerto consciente.",
+            "imagen": "https://static.wikia.nocookie.net/lord-of-the-mystery/images/b/b2/Death_Symbol2.png/revision/latest?cb=20230526081559",
+
+            "secuencias": [
+                {
+                    "nivel": 9,
+                    "nombre": "Corpse Collector",
+                    "habilidades": [
+                        {
+                            "nombre": "Detección de Cadáveres",
+                            "descripcion": "Percibe cuerpos, huesos o restos humanos en el entorno."
+                        },
+                        {
+                            "nombre": "Sin Miedo a la Muerte",
+                            "descripcion": "Resistencia psicológica a escenas macabras y olor a descomposición."
+                        },
+                        {
+                            "nombre": "Contacto Espiritual Básico",
+                            "descripcion": "Puede sentir esencias espirituales débiles en cuerpos sin vida."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Fragmento de hueso antiguo", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Agua de morgue purificada", "cantidad": 1 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 8,
+                    "nombre": "Grave Guard",
+                    "habilidades": [
+                        {
+                            "nombre": "Resistencia a la Podredumbre",
+                            "descripcion": "Inmunidad parcial a enfermedades, gérmenes o venenos cadavéricos."
+                        },
+                        {
+                            "nombre": "Aura Fúnebre",
+                            "descripcion": "Genera una presencia que incomoda a criaturas sensibles al mundo espiritual."
+                        },
+                        {
+                            "nombre": "Visión Espiritual Básica",
+                            "descripcion": "Permite ver espíritus débiles o fragmentos de alma."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Ceniza de cadáver humano", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Planta marchita ritual", "cantidad": 1 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 7,
+                    "nombre": "Tomb Warlock",
+                    "habilidades": [
+                        {
+                            "nombre": "Comunicación con Espíritus",
+                            "descripcion": "Contacta con almas recientes o espíritus atados a objetos o lugares."
+                        },
+                        {
+                            "nombre": "Control de Cadáveres Menores",
+                            "descripcion": "Puede manipular cadáveres frescos de forma limitada."
+                        },
+                        {
+                            "nombre": "Energía de Muerte",
+                            "descripcion": "Canaliza energía oscura que debilita seres vivos."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Esencia de alma fragmentada", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Sangre coagulada ritual", "cantidad": 2 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 6,
+                    "nombre": "Soul Shepherd",
+                    "habilidades": [
+                        {
+                            "nombre": "Guía de Almas",
+                            "descripcion": "Puede dirigir espíritus perdidos o estabilizar almas débiles."
+                        },
+                        {
+                            "nombre": "Drenaje Espiritual",
+                            "descripcion": "Absorbe una parte del poder del alma de enemigos debilitados."
+                        },
+                        {
+                            "nombre": "Barrera de Lamentos",
+                            "descripcion": "Crea un escudo espiritual hecho de gritos y energía de dolor."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Fragmento de espíritu atrapado", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Aceite de ungüento funerario", "cantidad": 1 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 5,
+                    "nombre": "Spirit Medium",
+                    "habilidades": [
+                        {
+                            "nombre": "Evocación",
+                            "descripcion": "Llama a espíritus específicos y los obliga a manifestarse."
+                        },
+                        {
+                            "nombre": "Contrato con Espíritus",
+                            "descripcion": "Las almas pueden formar acuerdos temporales con el usuario."
+                        },
+                        {
+                            "nombre": "Visión de la Muerte",
+                            "descripcion": "Detecta la proximidad de la muerte y rastros espirituales."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Vapor de alma pura", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Pluma negra de cuervo", "cantidad": 3 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 4,
+                    "nombre": "Death Priest",
+                    "habilidades": [
+                        {
+                            "nombre": "Bendición Fúnebre",
+                            "descripcion": "Otorga protección ante espíritus vengativos y energías negativas."
+                        },
+                        {
+                            "nombre": "Resurrección Parcial",
+                            "descripcion": "Puede reanimar cuerpos sin alma para tareas simples."
+                        },
+                        {
+                            "nombre": "Corrupción Necromántica",
+                            "descripcion": "Debilita seres vivos y acelera procesos de muerte."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Sangre de cadáver reanimado", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Polvo óseo sagrado", "cantidad": 1 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 3,
+                    "nombre": "Reaper",
+                    "habilidades": [
+                        {
+                            "nombre": "Cosecha de Almas",
+                            "descripcion": "Arrebata el alma de enemigos debilitados."
+                        },
+                        {
+                            "nombre": "Manipulación Avanzada de Espíritus",
+                            "descripcion": "Controla múltiples espíritus simultáneamente."
+                        },
+                        {
+                            "nombre": "Toque de la Muerte",
+                            "descripcion": "Ataque físico o espiritual que causa daño severo."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Lágrima de espíritu moribundo", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Arena funeraria negra", "cantidad": 1 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 2,
+                    "nombre": "Ascetic",
+                    "habilidades": [
+                        {
+                            "nombre": "Existencia Medio Muerta",
+                            "descripcion": "El cuerpo funciona entre vida y muerte, volviéndose muy resistente."
+                        },
+                        {
+                            "nombre": "Supresión Espiritual",
+                            "descripcion": "Anula poderes espirituales o energías de otros usuarios."
+                        },
+                        {
+                            "nombre": "Aura de Muerte",
+                            "descripcion": "Campo espiritual que debilita todo ser vivo cercano."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Corazón calcificado de cadáver vivo", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Resina negra de árbol muerto", "cantidad": 1 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 1,
+                    "nombre": "Death Consul",
+                    "habilidades": [
+                        {
+                            "nombre": "Soberanía sobre Cadáveres",
+                            "descripcion": "Control absoluto de muertos vivientes y cuerpos reanimados."
+                        },
+                        {
+                            "nombre": "Regulación de la Muerte",
+                            "descripcion": "Puede retrasar o acelerar procesos de vida/muerte."
+                        },
+                        {
+                            "nombre": "Invocación Masiva",
+                            "descripcion": "Convoca un ejército espiritual desde su dominio de la muerte."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Corona funeraria de rey muerto", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Esencia de 100 almas", "cantidad": 1 }
+                        ]
+                    }
+                },
+
+                {
+                    "nivel": 0,
+                    "nombre": "Death",
+                    "habilidades": [
+                        {
+                            "nombre": "Encarnación de la Muerte",
+                            "descripcion": "Control absoluto sobre espíritus, cadáveres, almas, energía negativa y la transición entre vida y muerte."
+                        },
+                        {
+                            "nombre": "Señor del Más Allá",
+                            "descripcion": "Puede gobernar un dominio espiritual completo y otorgar refugio o destrucción."
+                        },
+                        {
+                            "nombre": "Anulación Vital",
+                            "descripcion": "Puede extinguir vida con solo voluntad o mirada, afectando incluso seres poderosos."
+                        }
+                    ],
+                    "pocion": {
+                        "ingredientes_principales": [
+                            { "nombre": "Núcleo de muerte primordial", "cantidad": 1 }
+                        ],
+                        "ingredientes_secundarios": [
+                            { "nombre": "Energía del final del ciclo vital", "cantidad": 1 }
+                        ]
+                    }
+                }
+            ]
+        },
+    "Twilight Giant": {
+      "nombre": "Twilight Giant Pathway",
+      "descripcion": "Camino del Gigante Crepúsculo: un guerrero poderoso con gran físico, maestro en armas, con autoridad sobre el crepúsculo, la decadencia y el paso del tiempo. Puede generar armas y armaduras de luz crepuscular, purificar espíritus malignos, soportar grandes daños y manipular la luz para ocultarse o entrar en defensas casi inquebrantables. En niveles altos mezcla su poder físico con alquimia, ocultamiento y transformación de su forma física.",
+      "imagen": "https://static.wikia.nocookie.net/lord-of-the-mystery/images/c/c1/Twilight_Giant_Symbol2.png/revision/latest?cb=20230526081629",
+      
+      "secuencias": [
+        {
+          "nivel": 9,
+          "nombre": "Warrior",
+          "habilidades": [
+            {
+              "nombre": "Physical Enhancement",
+              "descripcion": "Fuerza, agilidad y constitución sobrehumana gracias a su sangre de gigante. :contentReference[oaicite:0]{index=0}"
+            },
+            {
+              "nombre": "Combat Proficiency",
+              "descripcion": "Dominio en armas y artes marciales: pueden usar casi cualquier arma o estilo con gran eficacia. :contentReference[oaicite:1]{index=1}"
+            },
+            {
+              "nombre": "Ritualistic Magic Básica",
+              "descripcion": "Capacidad para usar magia ritual sencilla, alimentada por su espiritualidad aumentada. :contentReference[oaicite:2]{index=2}"
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 8,
+          "nombre": "Pugilist",
+          "habilidades": [
+            {
+              "nombre": "Supernatural Resistance",
+              "descripcion": "Su físico les da resistencia a poderes sobrenaturales, reduciendo efectos negativos. :contentReference[oaicite:3]{index=3}"
+            },
+            {
+              "nombre": "Combate de Cuerpo a Cuerpo",
+              "descripcion": "Especialización en peleas a corta distancia, aprovechando su físico y su entrenamiento."
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 7,
+          "nombre": "Weapon Master",
+          "habilidades": [
+            {
+              "nombre": "Weapon Mastery",
+              "descripcion": "Maestría con casi cualquier arma, incluso objetos místicos o sellados. :contentReference[oaicite:4]{index=4}"
+            },
+            {
+              "nombre": "Mejora Física Extrema",
+              "descripcion": "Su fuerza, constitución y agilidad se vuelven aún más prominentes para potenciar sus ataques."
+            },
+            {
+              "nombre": "Ritual Avanzado",
+              "descripcion": "Capacidad para realizar rituales más complejos gracias a mayor espiritualidad. :contentReference[oaicite:5]{index=5}"
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 6,
+          "nombre": "Dawn Paladin",
+          "habilidades": [
+            {
+              "nombre": "Giant's Physique",
+              "descripcion": "Adquiere la constitución de un gigante: mucho más alto, musculoso y resistente. :contentReference[oaicite:6]{index=6}"
+            },
+            {
+              "nombre": "Light of Dawn",
+              "descripcion": "Crea un brillo de luz del amanecer (“Dawn Light”) con propiedades purificadoras para exorcizar espíritus malignos. :contentReference[oaicite:7]{index=7}"
+            },
+            {
+              "nombre": "Hurricane of Light",
+              "descripcion": "Usando su arma de luz, puede generar un huracán de rayos brillantes que causa mucho daño a criaturas malignas. :contentReference[oaicite:8]{index=8}"
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 5,
+          "nombre": "Guardian",
+          "habilidades": [
+            {
+              "nombre": "Protection Barrier",
+              "descripcion": "Inserta su espada de amanecer en el suelo para formar un escudo de luz que protege un área. :contentReference[oaicite:9]{index=9}"
+            },
+            {
+              "nombre": "Damage Transference",
+              "descripcion": "Puede absorber parte del daño de sus aliados para protegerlos. :contentReference[oaicite:10]{index=10}"
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 4,
+          "nombre": "Demon Hunter",
+          "habilidades": [
+            {
+              "nombre": "Eye of Demon Hunting",
+              "descripcion": "Símbolos oscuros aparecen en sus ojos, permitiendo identificar debilidades, exorcizar y aplicar efectos como decaimiento o purificación. :contentReference[oaicite:11]{index=11}"
+            },
+            {
+              "nombre": "Mind Concealment",
+              "descripcion": "Oculta sus intenciones y deseos para que otros no lean su mente o prevean sus actos. :contentReference[oaicite:12]{index=12}"
+            },
+            {
+              "nombre": "Tracking",
+              "descripcion": "Alta capacidad para rastrear objetivos por su aura, fuerza o esencia espiritual."
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 3,
+          "nombre": "Silver Knight",
+          "habilidades": [
+            {
+              "nombre": "Mercury Liquefaction",
+              "descripcion": "Su cuerpo puede volverse líquido semejante a mercurio, útil para restringir enemigos o reconstituirse. :contentReference[oaicite:13]{index=13}"
+            },
+            {
+              "nombre": "Silver Rapier",
+              "descripcion": "Genera una espada de rayo plateado (luz crepuscular) que puede materializarse y reaparecer para ataques sorpresa. :contentReference[oaicite:14]{index=14}"
+            },
+            {
+              "nombre": "Light Occultation (Ocultación de Luz)",
+              "descripcion": "Puede ocultarse usando fuentes de luz, combinando luz y sombra para volverse difícil de detectar. :contentReference[oaicite:15]{index=15}"
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 2,
+          "nombre": "Glory",
+          "habilidades": [
+            {
+              "nombre": "Passage of Time Authority",
+              "descripcion": "Control sobre el paso del tiempo: pueden acelerar o ralentizar procesos, incluso entrar al plano espiritual por envejecimiento. :contentReference[oaicite:16]{index=16}"
+            },
+            {
+              "nombre": "Twilight Sword",
+              "descripcion": "Espada formada de luz crepuscular/naranja-roja, muy poderosa y capaz de atravesar planos o destruir áreas. :contentReference[oaicite:17]{index=17}"
+            },
+            {
+              "nombre": "Cage de Luz Líquida",
+              "descripcion": "Forma una jaula esférica de luz sólida que puede sellar rituales, artefactos o proteger aliados. :contentReference[oaicite:18]{index=18}"
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 1,
+          "nombre": "Hand of God",
+          "habilidades": [
+            {
+              "nombre": "Divine Right Hand",
+              "descripcion": "Su mano derecha encarna el crepúsculo: puede manifestar un poder divino de Twilight en su palma. :contentReference[oaicite:19]{index=19}"
+            },
+            {
+              "nombre": "Protección Radiante",
+              "descripcion": "Genera un escudo de luz crepuscular muy denso y poderoso, capaz de repeler ataques incluso de seres elevados. :contentReference[oaicite:20]{index=20}"
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 0,
+          "nombre": "Twilight Giant",
+          "habilidades": [
+            {
+              "nombre": "Autoridad del Crepúsculo y Decaimiento",
+              "descripcion": "Control total sobre el crepúsculo: pueden provocar decadencia de materia y espíritu con su luz. :contentReference[oaicite:21]{index=21}"
+            },
+            {
+              "nombre": "Passage of Time Dominance",
+              "descripcion": "Manipulan el paso del tiempo: pueden congelar seres, acelerar el desgaste o crear dominios donde el tiempo fluye distinto. :contentReference[oaicite:22]{index=22}"
+            },
+            {
+              "nombre": "Reino Divino del Crepúsculo",
+              "descripcion": "Puede crear un reino o dominio donde su Twilight reina, con sus propias reglas temporales y de decadencia. :contentReference[oaicite:23]{index=23}"
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        }
+      ]
+    },
+    "Demoness": {
+      "nombre": "Demoness Pathway",
+      "descripcion": "Camino de la Demonio (Demoness): centrado en catástrofes, calamidades, maldiciones, oscuridad, magia espejo, plagas y destrucción. Representa el aspecto femenino del Creador original. Sus usuarios pueden causar desastres, manipular hilos invisibles, seducir, asesinar, propagar enfermedades y alterar el mundo a través de espejos.",  
+      "imagen": "https://tr.rbxcdn.com/180DAY-b24dcfb7750d0d994c3b732f5d421d25/420/420/BackAccessory/Webp/noFilter",
+      
+      "secuencias": [
+        {
+          "nivel": 9,
+          "nombre": "Assassin",
+          "habilidades": [
+            {
+              "nombre": "Shadow Concealment",
+              "descripcion": "Se puede ocultar completamente en la oscuridad o en sombras, volviéndose difícil de detectar. "  
+            },
+            {
+              "nombre": "Physical Enhancement",
+              "descripcion": "Mejora física: velocidad, agilidad, destreza para el asesinato y la evasión física. "  
+            },
+            {
+              "nombre": "Feather Fall & Mighty Blow",
+              "descripcion": "Capacidad para planear al descender (como pluma) y para liberar toda su fuerza en un solo golpe sorpresivo. "  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 8,
+          "nombre": "Instigator",
+          "habilidades": [
+            {
+              "nombre": "Instigation",
+              "descripcion": "Influye en los deseos malignos de los demás, incitando a que cometan crímenes u actos oscuros sin darse cuenta."  
+            },
+            {
+              "nombre": "Plantación de Pensamientos",
+              "descripcion": "Siembra ideas o deseos en la mente de otros para manipular sus acciones."  
+            },
+            {
+              "nombre": "Percepción Emocional",
+              "descripcion": "Siente las emociones profundas, malicia, deseos ocultos de las personas y puede explotarlas."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 7,
+          "nombre": "Witch",
+          "habilidades": [
+            {
+              "nombre": "Charm Mejorado",
+              "descripcion": "Su apariencia, carisma y atractivo aumentan considerablemente, volviéndose extremadamente seductora."  
+            },
+            {
+              "nombre": "Black Flame Magic",
+              "descripcion": "Invoca llamas negras (Black Flames) desde su cuerpo; puede usar estas llamas para atacar o maldecir."  
+            },
+            {
+              "nombre": "Mirror Substitution",
+              "descripcion": "Usa espejos para crear sustitutos: pueden recibir daño en su lugar y luego desaparecer o revivir."  
+            },
+            {
+              "nombre": "Mirror Hiding",
+              "descripcion": "Puede ocultarse dentro de espejos por segundos, como si su ser se reflejara para esconderse."  
+            },
+            {
+              "nombre": "Curses a través de Medios",
+              "descripcion": "Lanza maldiciones mediante medios como sangre, cabello o muñecos conectados místicos."  
+            },
+            {
+              "nombre": "Divination con Espejo / Bastones",
+              "descripcion": "Utiliza espejos o bastones para adivinar; también puede interferir con la adivinación de otros (Anti-Divination)."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 6,
+          "nombre": "Demoness of Pleasure",
+          "habilidades": [
+            {
+              "nombre": "Threads de Seda Espiritual",
+              "descripcion": "Hilos finos como seda (producidos por su cabello) que puede usar para controlar, atar o restringir a otros."  
+            },
+            {
+              "nombre": "Seducción Amplificada",
+              "descripcion": "Su carisma y belleza se intensifican, pudiendo inducir deseo y placer profundo para manipular mentalmente a otros."  
+            },
+            {
+              "nombre": "Dark Magic Potenciada",
+              "descripcion": "Sus llamas negras, magia espejo y maldiciones mejoran; puede lanzar múltiples proyectiles de Black Flame o usar hielo en sus hechizos."  
+            },
+            {
+              "nombre": "Ciclo de Sustitución Mejorado",
+              "descripcion": "La sustitución por espejo o bastón se vuelve más rápida y con recuperación posterior; puede curarse al usar sustitutos."  
+            },
+            {
+              "nombre": "Curse por Espejo Reflectante",
+              "descripcion": "Puede maldecir un objetivo reflejando su imagen en un espejo y luego usar Black Flames para quemar esa reflexión y afectar al objetivo."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 5,
+          "nombre": "Demoness of Affliction",
+          "habilidades": [
+            {
+              "nombre": "Enfermedades Sobrenaturales",
+              "descripcion": "Puede crear y propagar patógenos místicos que se infectan más rápido y son muy peligrosos."  
+            },
+            {
+              "nombre": "Threads Mejorados",
+              "descripcion": "Sus hilos (de cabello) se vuelven más fuertes, con capacidad para atacar, inmovilizar o manipular con precisión."  
+            },
+            {
+              "nombre": "Seducción Activa (Charm)",
+              "descripcion": "Su seducción puede paralizar la voluntad de otros si la usa activamente."  
+            },
+            {
+              "nombre": "Dark Magic con Maldiciones y Espejos",
+              "descripcion": "Lanza maldiciones más poderosas, usa espejos para trampas mágicas y su magia negra tiene mayor alcance."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 4,
+          "nombre": "Demoness of Despair",
+          "habilidades": [
+            {
+              "nombre": "Plaga Potenciada",
+              "descripcion": "Sus plagas se vuelven mucho más poderosas: pueden debilitar la fuerza vital y la espiritualidad de los objetivos."  
+            },
+            {
+              "nombre": "Petrificación Parcial",
+              "descripcion": "Partes del cuerpo de sus enemigos pueden volverse rígidas o petrificarse gradualmente si los hilos los tocan."  
+            },
+            {
+              "nombre": "Proyección por Espejo",
+              "descripcion": "Puede proyectar múltiples ilusiones o copias de sí misma a través de espejos en un rango grande."  
+            },
+            {
+              "nombre": "Maze de Espejos",
+              "descripcion": "Crea laberintos mágicos con espejos para atrapar o confundir a sus enemigos."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 3,
+          "nombre": "Demoness of Unaging",
+          "habilidades": [
+            {
+              "nombre": "Espejo de Sí Mismo (Mirror Self)",
+              "descripcion": "Su conciencia se fusiona con varios “yo espejados” en el mundo espejo, permitiendo la inmortalidad o resurrección mediante ellos."  
+            },
+            {
+              "nombre": "Petrificación por Mirada",
+              "descripcion": "Cada uno de sus cabellos-serpiente puede petrificar lo que vea, similar a una Gorgona."  
+            },
+            {
+              "nombre": "Transmisión por Espejo",
+              "descripcion": "Puede moverse, proyectar poder o información a través del mundo espejo en un amplio rango."  
+            },
+            {
+              "nombre": "Resurrección Espejada",
+              "descripcion": "Si uno de sus “yo espejo” muere, puede revivir fusionando con otro; difícil de matar definitivamente."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 2,
+          "nombre": "Demoness of Catastrophe",
+          "habilidades": [
+            {
+              "nombre": "Catastrophe Authority",
+              "descripcion": "Ejercer autoridad sobre catástrofes naturales: terremotos, tsunamis, heladas extremas, desastre masivo."  
+            },
+            {
+              "nombre": "Desestabilización Sistémica",
+              "descripcion": "Desata fallas internas en sistemas, conceptos o estructuras – físicas, sociales o místicas."  
+            },
+            {
+              "nombre": "Congelación / Calor Extremo",
+              "descripcion": "Manipula la temperatura para congelar o vaporizar zonas, provocando desastre ambiental."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 1,
+          "nombre": "Demoness of Apocalypse",
+          "habilidades": [
+            {
+              "nombre": "Apocalypse Authority",
+              "descripcion": "Autoridad que representa el fin total, el colapso de todo: caos absoluto y destrucción conceptual."  
+            },
+            {
+              "nombre": "Intercambio Espejo-Realidad",
+              "descripcion": "Capacidad para intercambiar su posición o partes de la realidad con su reflejo / mundo espejo."  
+            },
+            {
+              "nombre": "Animación de Entidades del Espejo",
+              "descripcion": "Invoca entidades poderosas desde el mundo espejo al mundo real bajo su control."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 0,
+          "nombre": "Primordial Demoness",
+          "habilidades": [
+            {
+              "nombre": "Chaos Authority",
+              "descripcion": "Control sobre el Caos primordial: puede devolver las cosas a su estado original caótico / primigenio."  
+            },
+            {
+              "nombre": "Primordium Authority",
+              "descripcion": "Autoridad sobre el origen, el estancamiento, la creación y la destrucción; domina la magia oscura y primigenia."  
+            },
+            {
+              "nombre": "Charm Conceptual",
+              "descripcion": "Encarnación de la feminidad conceptual; su belleza, voz y presencia generan un poder irresistible y trascendental."  
+            },
+            {
+              "nombre": "Dark Magic Suprema & Enfermedad",
+              "descripcion": "Soberana de toda magia oscura, maldiciones, plagas y enfermedad; puede infectar incluso dioses o conceptos."  
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        }
+      ]
+    },
+     "Red Priest": {
+      "nombre": "Red Priest Pathway",
+      "descripcion": "Camino del Sacerdote Rojo: centrado en guerra, destrucción, fuego, conspiración, provocación, autoridad masiva y calamidades creadas por manos humanas. Representa el lado masculino del Creador Original y su deseo de autoridad, sacrificio y conquista. Sus usuarios usan fuego, trampas, manipulan a la gente y pueden liderar ejércitos sobrenaturales.",  
+      "imagen": "https://static.wikia.nocookie.net/lord-of-the-mystery/images/b/b7/Red_Priest_Symbol2.png/revision/latest/scale-to-width-down/120?cb=20230526081355",
+
+      "secuencias": [
+        {
+          "nivel": 9,
+          "nombre": "Hunter",
+          "habilidades": [
+            {
+              "nombre": "Knowledge (Supervivencia y Trampas)",
+              "descripcion": "Obtienen conocimiento profundo para sobrevivir en la naturaleza, crear trampas, usar explosivos y rastrear."  
+            },
+            {
+              "nombre": "Physical Enhancement",
+              "descripcion": "Fuerza, velocidad, control corporal y curación natural sobrehumana. :contentReference[oaicite:0]{index=0}"  
+            },
+            {
+              "nombre": "Sentidos Agudizados",
+              "descripcion": "Mejoran sus sentidos (oído, olfato, vista) para rastrear, identificar huellas sutiles y peligros. :contentReference[oaicite:1]{index=1}"  
+            },
+            {
+              "nombre": "Espiritualidad Ligera",
+              "descripcion": "Su espiritualidad mejora ligeramente, permitiéndoles usar magia ritual básica o visión espiritual débil. :contentReference[oaicite:2]{index=2}"  
+            },
+            {
+              "nombre": "Danger Intuition",
+              "descripcion": "Pueden intuir peligro o malas intenciones de forma pasiva. :contentReference[oaicite:3]{index=3}"
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 8,
+          "nombre": "Provoker",
+          "habilidades": [
+            {
+              "nombre": "Provocation",
+              "descripcion": "Inducen cambios emocionales en otros: provocan ira, humillación o caos mediante insultos, palabras o presencia. :contentReference[oaicite:4]{index=4}"  
+            },
+            {
+              "nombre": "Physical Enhancement Mejorado",
+              "descripcion": "Fuerza, velocidad y regeneración física se incrementan con la provocación. :contentReference[oaicite:5]{index=5}"  
+            },
+            {
+              "nombre": "Visión Espiritual Mejorada",
+              "descripcion": "Pueden activar la visión espiritual más fácilmente para discernir componentes del Ether Body. :contentReference[oaicite:6]{index=6}"
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 7,
+          "nombre": "Pyromaniac (Mage de Fuego)",
+          "habilidades": [
+            {
+              "nombre": "Pirokinesis",
+              "descripcion": "Control total sobre llamas; pueden comprimir fuego, generar explosiones o armas de fuego. :contentReference[oaicite:7]{index=7}"
+            },
+            {
+              "nombre": "Armadura de Llama",
+              "descripcion": "Cubren su cuerpo con fuego para protegerse, reduciendo el daño de ataques y gases tóxicos. :contentReference[oaicite:8]{index=8}"
+            },
+            {
+              "nombre": "Conjurar Armas de Fuego",
+              "descripcion": "Crean armas temporales hechas de fuego (espadas, lanzas, proyectiles). :contentReference[oaicite:9]{index=9}"
+            },
+            {
+              "nombre": "Explosión Diferida",
+              "descripcion": "Construyen bombas de fuego que estallan tras un retraso controlado. :contentReference[oaicite:10]{index=10}"
+            },
+            {
+              "nombre": "Infusión de Llama",
+              "descripcion": "Insertan fuego en el cuerpo de los enemigos para luego detonar internamente. :contentReference[oaicite:11]{index=11}"
+            },
+            {
+              "nombre": "Bola de Fuego Comprimida",
+              "descripcion": "Generan una enorme bola de fuego altamente concentrada para un estallido poderoso. :contentReference[oaicite:12]{index=12}"
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 6,
+          "nombre": "Conspirer",
+          "habilidades": [
+            {
+              "nombre": "Atributos Mentales Mejorados",
+              "descripcion": "Inteligencia y claridad aumentan para planear, manipular y trazar conspiraciones. :contentReference[oaicite:13]{index=13}"
+            },
+            {
+              "nombre": "Instigation (Incitación)",
+              "descripcion": "Pueden incitar pensamientos, deseos o pasiones en las personas para provocar conflictos o lealtad. :contentReference[oaicite:14]{index=14}"
+            },
+            {
+              "nombre": "Engaño, Confusión y Manipulación",
+              "descripcion": "Usan mentiras, distracción y engaño como herramientas para manipular situaciones y personas. :contentReference[oaicite:15]{index=15}"
+            },
+            {
+              "nombre": "Transformación de Llama",
+              "descripcion": "Se fusionan con su fuego para moverse a través de él o viajar distancias via sus llamas. :contentReference[oaicite:16]{index=16}"
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 5,
+          "nombre": "Reaper",
+          "habilidades": [
+            {
+              "nombre": "Salida de Fuego Devastadora",
+              "descripcion": "Su pyrokinesis mejora, generando ataques masivos de fuego con alto daño. :contentReference[oaicite:17]{index=17}"
+            },
+            {
+              "nombre": "Transformación de Fuego",
+              "descripcion": "Se convierten en llamas para viajar rápido o atacar con forma pura de fuego. :contentReference[oaicite:18]{index=18}"
+            },
+            {
+              "nombre": "Pensamiento Claro",
+              "descripcion": "Su mente se aclara, permitiendo planeación eficiente y reacción rápida. :contentReference[oaicite:19]{index=19}"
+            },
+            {
+              "nombre": "Aumento de Espiritualidad",
+              "descripcion": "Su espiritualidad crece, permitiendo un mejor uso de sus poderes beyonder. :contentReference[oaicite:20]{index=20}"
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 4,
+          "nombre": "Iron-blooded Knight",
+          "habilidades": [
+            {
+              "nombre": "Valor de Acero",
+              "descripcion": "Poseen un coraje extremo, resistiendo ataques mentales, miedo y presión. :contentReference[oaicite:21]{index=21}"
+            },
+            {
+              "nombre": "Augmentación de Armas",
+              "descripcion": "Pueden convertir objetos ordinarios en armas místicas o bélicas mediante su fuego. :contentReference[oaicite:22]{index=22}"
+            },
+            {
+              "nombre": "Comunicación y Cadena de Mandato",
+              "descripcion": "Pueden conectar mentalmente con aliados, transmitir órdenes y coordinar sus poderes. :contentReference[oaicite:23]{index=23}"
+            },
+            {
+              "nombre": "Transformación en Llama o Metal",
+              "descripcion": "Su cuerpo y sus llamas pueden volverse acero místico o fuego simbólico para ataques. :contentReference[oaicite:24]{index=24}"
+            },
+            {
+              "nombre": "Bombardeo a Distancia",
+              "descripcion": "Usan objetos convertidos en armas para lanzar ataques explosivos a gran distancia. :contentReference[oaicite:25]{index=25}"
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 3,
+          "nombre": "War Bishop",
+          "habilidades": [
+            {
+              "nombre": "Canto o Grito de Guerra",
+              "descripcion": "Empuña su voz para aumentar la moral de aliados o debilitar a enemigos. :contentReference[oaicite:26]{index=26}"
+            },
+            {
+              "nombre": "Niebla de Guerra",
+              "descripcion": "Crea una niebla mística que bloquea sentidos, dificulta la percepción y el escape. :contentReference[oaicite:27]{index=27}"
+            },
+            {
+              "nombre": "Sacrificio",
+              "descripcion": "Hace rituales de sacrificio para invocar ayuda bélica o aumentar su poder temporalmente. :contentReference[oaicite:28]{index=28}"
+            },
+            {
+              "nombre": "Conexión Mental Masiva",
+              "descripcion": "A través de su cadena de mando, puede conectar la mente de varios aliados para coordinar ataques y compartir poder. :contentReference[oaicite:29]{index=29}"
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 2,
+          "nombre": "Weather Warlock",
+          "habilidades": [
+            {
+              "nombre": "Encanto Innato",
+              "descripcion": "Poseen un carisma magnético que inspira lealtad y devoción, incluso sin palabras. :contentReference[oaicite:30]{index=30}"
+            },
+            {
+              "nombre": "Control del Clima",
+              "descripcion": "Manipulan el clima: pueden invocar tormentas, relámpagos, huracanes o neblinas. :contentReference[oaicite:31]{index=31}"
+            },
+            {
+              "nombre": "Pyrokinesis Avanzada",
+              "descripcion": "Su control del fuego alcanza nuevos niveles: lanzan meteoritos de fuego, ráfagas y transformaciones con viento. :contentReference[oaicite:32]{index=32}"
+            },
+            {
+              "nombre": "Transformación de Llama en Velocidad",
+              "descripcion": "Se convierten en fuego para viajar enormes distancias muy rápidamente, usando viento como propulsión. :contentReference[oaicite:33]{index=33}"
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 1,
+          "nombre": "Conqueror",
+          "habilidades": [
+            {
+              "nombre": "Conquest (Conquista)",
+              "descripcion": "Pueden someter voluntades, conquistar territorios y dominar conceptos, cuerpos y espíritus. :contentReference[oaicite:34]{index=34}"
+            },
+            {
+              "nombre": "Culling / Weakness Investigation",
+              "descripcion": "Identifican y atacan los puntos débiles de sus enemigos con gran precisión. :contentReference[oaicite:35]{index=35}"
+            },
+            {
+              "nombre": "Conexión Masiva de Poder",
+              "descripcion": "Comparten su Beyonderidad y espiritualidad con otros para crear un ejército poderoso. :contentReference[oaicite:36]{index=36}"
+            },
+            {
+              "nombre": "Destrucción Ritual",
+              "descripcion": "Utilizan sacrificios y rituales bélicos para invocar poder de destrucción a gran escala. :contentReference[oaicite:37]{index=37}"
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        },
+        {
+          "nivel": 0,
+          "nombre": "Red Priest",
+          "habilidades": [
+            {
+              "nombre": "Autoridad de Conquista y Guerra",
+              "descripcion": "Control absoluto sobre la destrucción, la guerra, la sumisión y la creación de calamidades."  
+            },
+            {
+              "nombre": "Distribución de Poder en Masa",
+              "descripcion": "Capacidad para compartir sus poderes con ejércitos o seguidores, otorgando su fuerza a muchos."  
+            },
+            {
+              "nombre": "Transformación Celestial en Meteorito",
+              "descripcion": "Pueden transformarse en un meteorito ígneo (o proyectil de fuego) para desplazarse o atacar en gran escala. :contentReference[oaicite:38]{index=38}"
+            },
+            {
+              "nombre": "Desastre Climático",
+              "descripcion": "Domina el clima a nivel macropolítico para desatar tormentas masivas o desastres naturales con fuego. :contentReference[oaicite:39]{index=39}"
+            }
+          ],
+          "pocion": {
+            "ingredientes_principales": [],
+            "ingredientes_secundarios": []
+          }
+        }
+      ]
+    }
+
+    }
+}
+

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "recoleccion_bosque_backlund",
+    "nombre": "Bosque del Norte de Backlund",
+    "region": "Backlund",
+    
+    "profesion_requerida": "botanico",
+    "nivel_minimo": 1,
+
+    "items": [
+      {
+        "item_id": "hierba_verde_comun",
+        "probabilidad": 0.55,
+        "cantidad_min": 1,
+        "cantidad_max": 3
+      },
+      {
+        "item_id": "hierba_lunar_rara",
+        "probabilidad": 0.10,
+        "cantidad_min": 1,
+        "cantidad_max": 1,
+        "condicion_extra": "noche"
+      }
+    ]
+  }
+]

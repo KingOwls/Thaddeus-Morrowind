@@ -1,0 +1,291 @@
+{
+  "roles": {
+    "guerrero": {
+      "nombre": "Guerrero",
+      "descripcion": "Luchador frontal, consistente y resistente. Escala bien con ataque y armadura.",
+      "imagen": "https://i.pinimg.com/originals/9f/4d/8b/9f4d8b2c0e7d4f3c3b2a7b6a9a1f8d3e.png",
+      "armas_permitidas": ["espada", "guadana", "hacha"],
+      "armas_por_nivel": {
+        "1": "espada_hierro",
+        "2": "guadana_corta",
+        "3": "espada_larga",
+        "4": "hacha_de_guerra",
+        "5": "espada_runica",
+        "6": "guadana_del_verdugo"
+      },
+      "recurso_por_defecto": { "tipo": "Furia" },
+      "mejora_atributos_por_nivel": {
+        "vida": 18,
+        "ataque": 3,
+        "armadura": 2,
+        "probabilidad_critica": 0.002
+      },
+      "afinidad": ["melee", "tanque_ligero", "dps_sostenido"],
+      "restricciones": { "no_usa": ["baston", "grimorio"] }
+    },
+
+    "escudero": {
+      "nombre": "Escudero",
+      "descripcion": "Protector del equipo. Especialista en bloqueo, armadura y control defensivo.",
+      "imagen": "https://i.pinimg.com/originals/34/3b/77/343b77e1a1c3d9b7f0e9c2c8f1a2d9c1.png",
+      "armas_permitidas": ["lanza", "maza", "espada"],
+      "armas_por_nivel": {
+        "1": "lanza_simple",
+        "2": "maza_milicia",
+        "3": "lanza_guardia",
+        "4": "espada_escuderia",
+        "5": "maza_bendita",
+        "6": "lanza_baluarte"
+      },
+      "recurso_por_defecto": { "tipo": "Vigor" },
+      "mejora_atributos_por_nivel": {
+        "vida": 24,
+        "armadura": 4,
+        "resistencia_magica": 2,
+        "bloqueo": 0.01
+      },
+      "afinidad": ["tanque", "protector", "frontline"],
+      "restricciones": { "requiere": ["escudo"], "no_usa": ["arco"] }
+    },
+
+    "mago": {
+      "nombre": "Mago",
+      "descripcion": "Daño elemental y control. Alto poder mágico, frágil si lo atrapan.",
+      "imagen": "https://i.pinimg.com/originals/6a/7d/ef/6a7def2d3e7c8d1e2f9a0b1c2d3e4f5a.png",
+      "armas_permitidas": ["baston", "vara", "grimorio"],
+      "armas_por_nivel": {
+        "1": "vara_aprendiz",
+        "2": "baston_fresno",
+        "3": "grimorio_basico",
+        "4": "vara_elemental",
+        "5": "baston_arcano",
+        "6": "grimorio_prohibido"
+      },
+      "recurso_por_defecto": { "tipo": "Mana" },
+      "mejora_atributos_por_nivel": {
+        "poder_magico": 5,
+        "recurso.cantidad_maxima": 12,
+        "resistencia_magica": 1,
+        "aura": 1
+      },
+      "afinidad": ["rango", "burst", "control"],
+      "restricciones": { "no_usa": ["hacha", "maza"] }
+    },
+
+    "curandero": {
+      "nombre": "Curandero",
+      "descripcion": "Soporte puro: curación, aura y supervivencia del grupo.",
+      "imagen": "https://i.pinimg.com/originals/0a/9c/1e/0a9c1e2d3f4a5b6c7d8e9f0a1b2c3d4e.png",
+      "armas_permitidas": ["baston", "cetro", "grimorio"],
+      "armas_por_nivel": {
+        "1": "cetro_simple",
+        "2": "baston_sanador",
+        "3": "grimorio_luz",
+        "4": "cetro_consagrado",
+        "5": "baston_serafico",
+        "6": "grimorio_solar"
+      },
+      "recurso_por_defecto": { "tipo": "Mana" },
+      "mejora_atributos_por_nivel": {
+        "vida": 12,
+        "poder_magico": 3,
+        "recurso.cantidad_maxima": 14,
+        "aura": 3
+      },
+      "afinidad": ["soporte", "cura", "buffs"],
+      "restricciones": { "no_usa": ["guadana", "arco"] }
+    },
+
+    "cazador": {
+      "nombre": "Cazador",
+      "descripcion": "DPS a distancia con críticos y precisión. Excelente para objetivos individuales.",
+      "imagen": "https://i.pinimg.com/originals/2b/8d/aa/2b8daa1c2d3e4f5a6b7c8d9e0f1a2b3c.png",
+      "armas_permitidas": ["arco", "ballesta", "guadana"],
+      "armas_por_nivel": {
+        "1": "arco_corto",
+        "2": "ballesta_ligera",
+        "3": "arco_reforzado",
+        "4": "ballesta_de_caza",
+        "5": "arco_del_halcon",
+        "6": "ballesta_sombría"
+      },
+      "recurso_por_defecto": { "tipo": "Energía" },
+      "mejora_atributos_por_nivel": {
+        "ataque": 4,
+        "probabilidad_critica": 0.006,
+        "danio_critico": 0.03,
+        "evasion": 0.004
+      },
+      "afinidad": ["rango", "critico", "single_target"],
+      "restricciones": { "no_usa": ["baston"] }
+    },
+
+    "picaro": {
+      "nombre": "Pícaro",
+      "descripcion": "Asesino veloz. Alta evasión, críticos y suerte para efectos especiales.",
+      "imagen": "https://i.pinimg.com/originals/1d/2e/3f/1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a.png",
+      "armas_permitidas": ["daga", "espada_corta", "arco_corto"],
+      "armas_por_nivel": {
+        "1": "daga_oxidada",
+        "2": "espada_corta",
+        "3": "daga_gemela",
+        "4": "filo_sombrio",
+        "5": "daga_del_susurro",
+        "6": "hojas_nocturnas"
+      },
+      "recurso_por_defecto": { "tipo": "Energía" },
+      "mejora_atributos_por_nivel": {
+        "ataque": 3,
+        "evasion": 0.01,
+        "probabilidad_critica": 0.008,
+        "suerte": 2
+      },
+      "afinidad": ["melee", "burst", "movilidad"],
+      "restricciones": { "no_usa": ["maza", "escudo"] }
+    },
+
+    "paladin": {
+      "nombre": "Paladín",
+      "descripcion": "Híbrido sagrado: aguanta, apoya y puede curar. Balanceado entre armadura y aura.",
+      "imagen": "https://i.pinimg.com/originals/aa/bb/cc/aabbccddeeff00112233445566778899.png",
+      "armas_permitidas": ["espada", "maza", "cetro"],
+      "armas_por_nivel": {
+        "1": "maza_novicio",
+        "2": "espada_juramento",
+        "3": "cetro_fe",
+        "4": "maza_justicia",
+        "5": "espada_luminosa",
+        "6": "cetro_del_juicio"
+      },
+      "recurso_por_defecto": { "tipo": "Mana" },
+      "mejora_atributos_por_nivel": {
+        "vida": 16,
+        "armadura": 3,
+        "resistencia_magica": 3,
+        "aura": 2
+      },
+      "afinidad": ["tanque_hibrido", "soporte", "anti_magia"],
+      "restricciones": { "no_usa": ["guadana"] }
+    },
+
+    "nigromante": {
+      "nombre": "Nigromante",
+      "descripcion": "Magia oscura y desgaste. Gana por supervivencia y escalado de poder mágico.",
+      "imagen": "https://i.pinimg.com/originals/11/22/33/11223344556677889900aabbccddeeff.png",
+      "armas_permitidas": ["grimorio", "baston", "daga_ritual"],
+      "armas_por_nivel": {
+        "1": "grimorio_huesos",
+        "2": "baston_ceniza",
+        "3": "daga_ritual",
+        "4": "grimorio_putrefacto",
+        "5": "baston_tumba",
+        "6": "grimorio_necrorex"
+      },
+      "recurso_por_defecto": { "tipo": "Esencia" },
+      "mejora_atributos_por_nivel": {
+        "poder_magico": 4,
+        "vida": 10,
+        "recurso.cantidad_maxima": 10,
+        "inmortalidad": 0.004
+      },
+      "afinidad": ["rango", "dot", "invocacion"],
+      "restricciones": { "no_usa": ["arco", "escudo"] }
+    },
+
+    "berserker": {
+      "nombre": "Berserker",
+      "descripcion": "Daño brutal a costa de control. Escala fuerte con ataque y crítico.",
+      "imagen": "https://i.pinimg.com/originals/44/55/66/44556677889900aabbccddeeff001122.png",
+      "armas_permitidas": ["hacha", "guadana", "martillo"],
+      "armas_por_nivel": {
+        "1": "hacha_astillada",
+        "2": "martillo_pesado",
+        "3": "hacha_doble",
+        "4": "guadana_sangrienta",
+        "5": "martillo_titan",
+        "6": "hacha_del_fin"
+      },
+      "recurso_por_defecto": { "tipo": "Furia" },
+      "mejora_atributos_por_nivel": {
+        "vida": 14,
+        "ataque": 5,
+        "probabilidad_critica": 0.004,
+        "danio_critico": 0.05
+      },
+      "afinidad": ["melee", "dps_alto", "riesgo_recompensa"],
+      "restricciones": { "no_usa": ["baston", "cetro"] }
+    },
+
+    "hechicero": {
+      "nombre": "Hechicero",
+      "descripcion": "Caster explosivo: mucho poder mágico y crítico mágico (vía probabilidad crítica).",
+      "imagen": "https://i.pinimg.com/originals/77/88/99/77889900aabbccddeeff001122334455.png",
+      "armas_permitidas": ["vara", "orbe", "grimorio"],
+      "armas_por_nivel": {
+        "1": "orbe_turbio",
+        "2": "vara_fulgor",
+        "3": "grimorio_sigilos",
+        "4": "orbe_estelar",
+        "5": "vara_del_cielo",
+        "6": "grimorio_alfa"
+      },
+      "recurso_por_defecto": { "tipo": "Mana" },
+      "mejora_atributos_por_nivel": {
+        "poder_magico": 6,
+        "probabilidad_critica": 0.004,
+        "recurso.cantidad_maxima": 10,
+        "armadura": 1
+      },
+      "afinidad": ["rango", "burst", "critico"],
+      "restricciones": { "no_usa": ["hacha", "martillo"] }
+    },
+
+    "monje": {
+      "nombre": "Monje",
+      "descripcion": "Combatiente ágil: evasión, bloqueo con manos/guanteletes y buena supervivencia.",
+      "imagen": "https://i.pinimg.com/originals/ab/cd/ef/abcdef0123456789abcdef0123456789.png",
+      "armas_permitidas": ["guanteletes", "baston_corto", "puños"],
+      "armas_por_nivel": {
+        "1": "vendajes",
+        "2": "guanteletes_cuero",
+        "3": "baston_corto",
+        "4": "guanteletes_reforzados",
+        "5": "baston_zen",
+        "6": "guanteletes_dragon"
+      },
+      "recurso_por_defecto": { "tipo": "Ki" },
+      "mejora_atributos_por_nivel": {
+        "vida": 15,
+        "ataque": 3,
+        "evasion": 0.008,
+        "bloqueo": 0.006
+      },
+      "afinidad": ["melee", "movilidad", "duelista"],
+      "restricciones": { "no_usa": ["arco", "grimorio"] }
+    },
+
+    "ingeniero": {
+      "nombre": "Ingeniero",
+      "descripcion": "Táctico: trampas, gadgets y suerte. Escala con ataque y utilidad (aura/suerte).",
+      "imagen": "https://i.pinimg.com/originals/fe/dc/ba/fedcba9876543210fedcba9876543210.png",
+      "armas_permitidas": ["rifle", "pistola", "llave_inglesa"],
+      "armas_por_nivel": {
+        "1": "pistola_chatarra",
+        "2": "rifle_basico",
+        "3": "llave_inglesa",
+        "4": "rifle_precision",
+        "5": "pistola_tesla",
+        "6": "rifle_automatizado"
+      },
+      "recurso_por_defecto": { "tipo": "Energía" },
+      "mejora_atributos_por_nivel": {
+        "ataque": 3,
+        "suerte": 3,
+        "aura": 1,
+        "armadura": 1
+      },
+      "afinidad": ["rango", "control", "utilidad"],
+      "restricciones": { "no_usa": ["cetro"] }
+    }
+  }
+}

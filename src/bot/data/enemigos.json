@@ -1,0 +1,19 @@
+[
+  {
+    "id": "bestia_sombria_lv3",
+    "nombre": "Bestia Sombría",
+    "nivel": 3,
+    
+    "regiones": ["Bosque Oscuro", "Backlund"],
+    "hostilidad": "alta",
+
+    "stats": {
+      "vida": 120,
+      "ataque": 25,
+      "defensa": 8,
+      "velocidad": 12
+    },
+
+    "loot_table_id": "loot_bestia_sombria"
+  }
+]

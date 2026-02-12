@@ -1,0 +1,243 @@
+{
+  "profesiones": {
+    "cocinero": {
+      "nombre": "Cocinero",
+      "descripcion": "Experto en preparación de alimentos, control de ingredientes y creación de platillos con efectos especiales.",
+      "imagen": "https://i.pinimg.com/originals/56/6c/e9/566ce9deaa40a599c2d7fd07bac17428.png",
+      "armas_por_nivel": {
+        "1": "cuchillo_simple",
+        "2": "sarten_reforzada",
+        "3": "cuchillo_profesional",
+        "4": "wok_temperado",
+        "5": "sarten_mistica",
+        "6": "cuchillo_arcano"
+      },
+      "ramas_nivel_3": ["Carnes", "Vegetariano"],
+      "ramas_nivel_5": ["Especias", "Silvestre"],
+      "libros_por_nivel": {
+        "1": {"moderno": true, "oculto": false},
+        "2": {"moderno": true, "oculto": false},
+        "3": {"moderno": true, "oculto": false},
+        "4": {"moderno": true, "oculto": true},
+        "5": {"moderno": true, "oculto": true}
+      }
+    },
+
+    "alquimista": {
+      "nombre": "Alquimista",
+      "descripcion": "Maestro en mezclas, reactivos y transmutaciones. Produce pociones, tónicos y catalizadores.",
+      "imagen": "https://static.wikia.nocookie.net/lord-of-the-mystery/images/e/ef/Potion_-_Fool_Sequence_9_-_Seer.png/revision/latest?cb=20240308041440",
+      "armas_por_nivel": {
+        "0": "mortero_basico",
+        "1": "alambique_simple",
+        "2": "frasco_reforzado",
+        "3": "alambique_avanzado",
+        "4": "mortero_arcano",
+        "5": "alambique_ancestral"
+      },
+      "ramas_nivel_3": ["Medicina", "Toxicologia"],
+      "ramas_nivel_5": ["Catalisis", "Extractos_Raros"],
+      "libros_por_nivel": {
+        "1": {"moderno": true, "oculto": false},
+        "2": {"moderno": true, "oculto": false},
+        "3": {"moderno": true, "oculto": false},
+        "4": {"moderno": true, "oculto": true},
+        "5": {"moderno": true, "oculto": true}
+      }
+    },
+
+    "bibliotecario": {
+      "nombre": "Bibliotecario",
+      "descripcion": "Especialista en conocimientos, inscripción mágica y recuperación de textos antiguos.",
+      "imagen": "https://static.wikia.nocookie.net/id5/images/3/3b/DMFullSprite.png/revision/latest/smart/width/250/height/250?cb=20210628114652",
+      "armas_por_nivel": {
+        "0": "pluma_simple",
+        "1": "tintero_reforzado",
+        "2": "pluma_mistica",
+        "3": "estilete_ritual",
+        "4": "libro_encantado",
+        "5": "pluma_arcana"
+      },
+      "ramas_nivel_3": ["Historia", "Runologia"],
+      "ramas_nivel_5": ["Criptografia", "Archivismo_Espectral"],
+      "libros_por_nivel": {
+        "1": {"moderno": true, "oculto": false},
+        "2": {"moderno": true, "oculto": false},
+        "3": {"moderno": true, "oculto": false},
+        "4": {"moderno": true, "oculto": true},
+        "5": {"moderno": true, "oculto": true}
+      }
+    },
+
+    "agricultor": {
+      "nombre": "Agricultor",
+      "descripcion": "Cuida la tierra, cultivos y plantas especiales para uso culinario o alquímico.",
+      "imagen": "https://i.pinimg.com/originals/a8/35/2b/a8352b60fb8c712094b39a8b9ca464d6.png",
+      "armas_por_nivel": {
+        "0": "azada_simple",
+        "1": "pico_ligero",
+        "2": "hoz_reforzada",
+        "3": "guantes_protectores",
+        "4": "azada_mistica",
+        "5": "hoz_arcana"
+      },
+      "ramas_nivel_3": ["Raices", "Frutales"],
+      "ramas_nivel_5": ["Cultivos_Raros", "Botanica_Silvestre"],
+      "libros_por_nivel": {
+        "1": {"moderno": true, "oculto": false},
+        "2": {"moderno": true, "oculto": false},
+        "3": {"moderno": true, "oculto": false},
+        "4": {"moderno": true, "oculto": true},
+        "5": {"moderno": true, "oculto": true}
+      }
+    },
+
+    "herrero": {
+      "nombre": "Herrero",
+      "descripcion": "Forjador de metales, creador de herramientas, armas y mecanismos funcionales.",
+      "imagen": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe/4c1185f5b5942541cb8878b16d4343bce0a37758-1280x828.png",
+      "armas_por_nivel": {
+        "0": "martillo_simple",
+        "1": "yunque_ligero",
+        "2": "martillo_reforzado",
+        "3": "tenazas_misticas",
+        "4": "martillo_draconico",
+        "5": "yunque_arcano"
+      },
+      "ramas_nivel_3": ["Armas", "Herramientas"],
+      "ramas_nivel_5": ["Metalurgia_Avanzada", "Runas_Forjadas"],
+      "libros_por_nivel": {
+        "1": {"moderno": true, "oculto": false},
+        "2": {"moderno": true, "oculto": false},
+        "3": {"moderno": true, "oculto": false},
+        "4": {"moderno": true, "oculto": true},
+        "5": {"moderno": true, "oculto": true}
+      }
+    },
+
+    "sastre": {
+      "nombre": "Sastre",
+      "descripcion": "Fabricante de telas, ropajes especiales y equipamiento textil con propiedades únicas.",
+      "imagen": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4e0aa8c8-38c8-4341-b781-dfc9f5e25cf3/dg6c0mu-149c486d-9e43-4b0b-9f29-9be58bdf1e10.png/v1/fill/w_784,h_1020,q_70,strp/the_tailor_by_dawsintronsd_dg6c0mu-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjA0NiIsInBhdGgiOiIvZi80ZTBhYThjOC0zOGM4LTQzNDEtYjc4MS1kZmM5ZjVlMjVjZjMvZGc2YzBtdS0xNDljNDg2ZC05ZTQzLTRiMGItOWYyOS05YmU1OGJkZjFlMTAucG5nIiwid2lkdGgiOiI8PTE1NzMifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.kiMdXQEaRPPFoyUxVirxSza3YBcrerExhTt1DBgG9n8",
+      "armas_por_nivel": {
+        "0": "aguja_simple",
+        "1": "tijeras_ligeras",
+        "2": "aguja_reforzada",
+        "3": "tijeras_misticas",
+        "4": "aguja_eterea",
+        "5": "tela_arcana"
+      },
+      "ramas_nivel_3": ["Ropas_Ligeras", "Ropas_Protectivas"],
+      "ramas_nivel_5": ["Tejidos_Misticos", "Telares_Raros"],
+      "libros_por_nivel": {
+        "1": {"moderno": true, "oculto": false},
+        "2": {"moderno": true, "oculto": false},
+        "3": {"moderno": true, "oculto": false},
+        "4": {"moderno": true, "oculto": true},
+        "5": {"moderno": true, "oculto": true}
+      }
+    },
+
+    "cartografo": {
+      "nombre": "Cartógrafo",
+      "descripcion": "Experto en trazado de mapas, exploración y creación de rutas seguras.",
+      "imagen": "https://static.wikia.nocookie.net/hollowknight/images/1/1f/Npc_mapper.png/revision/latest/scale-to-width-down/250?cb=20190405191530",
+      "armas_por_nivel": {
+        "0": "brujula_simple",
+        "1": "mapa_basico",
+        "2": "brujula_reforzada",
+        "3": "sextante_mistico",
+        "4": "mapa_antiguo",
+        "5": "brujula_arcana"
+      },
+      "ramas_nivel_3": ["Exploracion", "Topografia"],
+      "ramas_nivel_5": ["Rutas_Comerciales", "Mapas_Arcanos"],
+      "libros_por_nivel": {
+        "1": {"moderno": true, "oculto": false},
+        "2": {"moderno": true, "oculto": false},
+        "3": {"moderno": true, "oculto": false},
+        "4": {"moderno": true, "oculto": true},
+        "5": {"moderno": true, "oculto": true}
+      }
+    },
+
+    "minero": {
+      "nombre": "Minero",
+      "descripcion": "Recolector de minerales, cristales y piedras preciosas provenientes del subsuelo.",
+      "imagen": "https://static.wikia.nocookie.net/overlordmaruyama/images/a/a4/Gondo_%28Anime%29.png/revision/latest?cb=20220805113529",
+      "armas_por_nivel": {
+        "0": "pico_simple",
+        "1": "martillo_de_mano",
+        "2": "pico_reforzado",
+        "3": "taladro_portatil",
+        "4": "pico_mistico",
+        "5": "taladro_arcano"
+      },
+      "ramas_nivel_3": ["Metales", "Cristales"],
+      "ramas_nivel_5": ["Mineria_Profunda", "Minerales_Raros"],
+      "libros_por_nivel": {
+        "1": {"moderno": true, "oculto": false},
+        "2": {"moderno": true, "oculto": false},
+        "3": {"moderno": true, "oculto": false},
+        "4": {"moderno": true, "oculto": true},
+        "5": {"moderno": true, "oculto": true}
+      }
+    },
+
+    "cazador": {
+      "nombre": "Cazador",
+      "descripcion": "Especialista en rastreo, supervivencia y obtención de materiales animales.",
+      "imagen": "https://static.wikia.nocookie.net/p__/images/9/9a/High_Elf_Archer_Full_Body.png/revision/latest?cb=20181230075439&path-prefix=protagonist",
+      "armas_por_nivel": {
+        "0": "arco_simple",
+        "1": "trampa_ligera",
+        "2": "arco_reforzado",
+        "3": "ballesta_avanzada",
+        "4": "arco_mistico",
+        "5": "ballesta_arcana"
+      },
+      "ramas_nivel_3": ["Rastreo", "Trampas"],
+      "ramas_nivel_5": ["Bestias_Raras", "Supervivencia_Avanzada"],
+      "libros_por_nivel": {
+        "1": {"moderno": true, "oculto": false},
+        "2": {"moderno": true, "oculto": false},
+        "3": {"moderno": true, "oculto": false},
+        "4": {"moderno": true, "oculto": true},
+        "5": {"moderno": true, "oculto": true}
+      }
+    },
+
+    "sacerdote": {
+        "nombre": "Sacerdote",
+        "descripcion": "Especialista en soporte espiritual, bendiciones, purificación y sellos sagrados. Su enfoque es la curación, protección, detección de corrupción y rituales.",
+        "imagen": "https://static.wikia.nocookie.net/frieren/images/f/f2/Heiter_anime_profile.png/revision/latest/smart/width/250/height/250?cb=20230714205913",
+
+        "armas_por_nivel": {
+            "0": "libro_oraciones_basico",
+            "1": "cruz_plata",
+            "2": "baculo_bendito",
+            "3": "caliz_consagrado",
+            "4": "incensario_sagrado",
+            "5": "reliquia_mayor"
+        },
+
+        "ramas_nivel_3": [
+            "Luz",
+            "Fe_Estructural"
+        ],
+
+        "ramas_nivel_5": [
+            "Ritualista",
+            "Orador_Divino"
+        ],
+
+        "libros_por_nivel": {
+            "1": { "moderno": true, "oculto": false },
+            "2": { "moderno": true, "oculto": false },
+            "3": { "moderno": true, "oculto": false },
+            "4": { "moderno": true, "oculto": true },
+            "5": { "moderno": true, "oculto": true }
+        }
+    }
+  }
+}

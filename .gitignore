@@ -1,10 +1,17 @@
-.env
-.venv/
+# Python
 __pycache__/
 *.pyc
-.pytest_cache/
-.ruff_cache/
-dist/
-build/
+*.pyo
+*.pyd
 *.log
-.DS_Store
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+
+# Data runtime (elige una estrategia, abajo explico)
+src/bot/data/users/
