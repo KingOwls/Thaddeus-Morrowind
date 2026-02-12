@@ -130,6 +130,67 @@ def _load_options(path: str) -> List[str]:
     # fallback: dict plano
     return [_normalize_label(k) for k in data.keys()]
 
+def _db_lookup_by_display_name(db_path: str, display_name: str) -> Optional[Dict[str, Any]]:
+    """
+    Busca un entry en rol/profesiones/pathways comparando por 'nombre' (o key fallback)
+    y devuelve el dict completo (donde viene 'imagen', 'descripcion', etc).
+    """
+    data = _load_db(db_path)
+    target = _normalize_label(display_name).lower()
+
+    # roles
+    if "roles" in data:
+        block = _db_block(data, "roles")
+        for k, v in block.items():
+            if not isinstance(v, dict):
+                continue
+            nm = _normalize_label(v.get("nombre", k)).lower()
+            if nm == target:
+                return v
+
+    # profesiones
+    if "profesiones" in data:
+        block = _db_block(data, "profesiones")
+        for k, v in block.items():
+            if not isinstance(v, dict):
+                continue
+            nm = _normalize_label(v.get("nombre", k)).lower()
+            if nm == target:
+                return v
+
+    # pathways
+    if "pathways" in data:
+        block = _db_block(data, "pathways")
+        for k, v in block.items():
+            if not isinstance(v, dict):
+                continue
+            nm = _normalize_label(v.get("nombre", k)).lower()
+            if nm == target:
+                return v
+
+    return None
+
+
+def _safe_image_url(entry: Optional[Dict[str, Any]]) -> Optional[str]:
+    if not entry or not isinstance(entry, dict):
+        return None
+    url = entry.get("imagen")
+    if isinstance(url, str) and url.startswith("http"):
+        return url
+    return None
+
+
+def _safe_desc(entry: Optional[Dict[str, Any]], limit: int = 250) -> str:
+    if not entry or not isinstance(entry, dict):
+        return ""
+    desc = entry.get("descripcion")
+    if not isinstance(desc, str):
+        return ""
+    desc = desc.strip()
+    if len(desc) > limit:
+        desc = desc[: limit - 3] + "..."
+    return desc
+
 
 def _find_role_by_name(role_name: str) -> Optional[Dict[str, Any]]:
     db = _load_db(ROL_DB)
@@ -495,22 +556,42 @@ class CreateTreeButtonsView(discord.ui.View):
         title_map = {"rol": "Rol", "profesion": "Profesión", "nacion": "Nación"}
         title = title_map.get(self.stage, self.stage)
         cur = self._current()
-        e = discord.Embed(title=f"Selecciona {title}", description=f"**{cur}**\n({self.index+1}/{len(self.options)})")
+
+        # Elegir DB según stage
+        if self.stage == "rol":
+            entry = _db_lookup_by_display_name(ROL_DB, cur)
+        elif self.stage == "profesion":
+            entry = _db_lookup_by_display_name(PROFESIONES_DB, cur)
+        else:
+            entry = _db_lookup_by_display_name(PATHWAY_DB, cur)
+
+        desc = _safe_desc(entry)
+        e = discord.Embed(
+            title=f"Selecciona {title}",
+            description=f"**{cur}**\n{desc}\n\n({self.index+1}/{len(self.options)})"
+        )
         e.set_footer(text="Usa ◀ ▶ para cambiar, ✅ para aceptar, ⏭ para 'no quiero ninguna'")
+
+        img = _safe_image_url(entry)
+        if img:
+            e.set_thumbnail(url=img)  # thumbnail es más estable/bonito para navegación
+
         return e
 
-    async def _refresh(self, interaction: discord.Interaction) -> None:
+    
+
+    async def _update_message(self, interaction: discord.Interaction) -> None:
         await interaction.response.edit_message(embed=self._embed(), view=self)
 
     @discord.ui.button(label="◀", style=discord.ButtonStyle.secondary)
     async def left_btn(self, interaction: discord.Interaction, _: discord.ui.Button):
         self.index = (self.index - 1) % len(self.options)
-        await self._refresh(interaction)
+        await self._update_message(interaction)
 
     @discord.ui.button(label="▶", style=discord.ButtonStyle.secondary)
     async def right_btn(self, interaction: discord.Interaction, _: discord.ui.Button):
         self.index = (self.index + 1) % len(self.options)
-        await self._refresh(interaction)
+        await self._update_message(interaction)
 
     @discord.ui.button(label="✅", style=discord.ButtonStyle.green)
     async def accept_btn(self, interaction: discord.Interaction, _: discord.ui.Button):

@@ -14,32 +14,6 @@ Incluye:
 
 ----------
 
-## 📦 Estructura del Proyecto
-
-`D:\Thaddeus Morrowind
-│
-├── .venv/
-├── data/
-│   ├── users/
-│   ├── rol.json
-│   ├── profesiones.json
-│   └── pathway.json
-│
-├── src/
-│   ├── __init__.py
-│   └── bot/
-│       ├── __init__.py
-│       ├── main.py
-│       └── cogs/
-│           ├── __init__.py
-│           ├── ping.py
-│           └── personaje.py
-│
-├── .env
-└── README.md`
-
-----------
-
 ## ⚙️ Requisitos del Proyecto
 
 ### Python

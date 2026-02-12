@@ -3,7 +3,7 @@
     "guerrero": {
       "nombre": "Guerrero",
       "descripcion": "Luchador frontal, consistente y resistente. Escala bien con ataque y armadura.",
-      "imagen": "https://i.pinimg.com/originals/9f/4d/8b/9f4d8b2c0e7d4f3c3b2a7b6a9a1f8d3e.png",
+      "imagen": "https://i.pinimg.com/736x/63/ae/d0/63aed0edebe595ac8e85bcfbc3376f97.jpg",
       "armas_permitidas": ["espada", "guadana", "hacha"],
       "armas_por_nivel": {
         "1": "espada_hierro",
@@ -27,7 +27,7 @@
     "escudero": {
       "nombre": "Escudero",
       "descripcion": "Protector del equipo. Especialista en bloqueo, armadura y control defensivo.",
-      "imagen": "https://i.pinimg.com/originals/34/3b/77/343b77e1a1c3d9b7f0e9c2c8f1a2d9c1.png",
+      "imagen": "https://i.pinimg.com/736x/2a/98/09/2a9809a5ffacce5a59042c76a28724f2.jpg",
       "armas_permitidas": ["lanza", "maza", "espada"],
       "armas_por_nivel": {
         "1": "lanza_simple",
@@ -51,7 +51,7 @@
     "mago": {
       "nombre": "Mago",
       "descripcion": "Daño elemental y control. Alto poder mágico, frágil si lo atrapan.",
-      "imagen": "https://i.pinimg.com/originals/6a/7d/ef/6a7def2d3e7c8d1e2f9a0b1c2d3e4f5a.png",
+      "imagen": "https://i.pinimg.com/1200x/91/48/20/9148209ad9151eb4357a3ba61cca8138.jpg",
       "armas_permitidas": ["baston", "vara", "grimorio"],
       "armas_por_nivel": {
         "1": "vara_aprendiz",
@@ -75,7 +75,7 @@
     "curandero": {
       "nombre": "Curandero",
       "descripcion": "Soporte puro: curación, aura y supervivencia del grupo.",
-      "imagen": "https://i.pinimg.com/originals/0a/9c/1e/0a9c1e2d3f4a5b6c7d8e9f0a1b2c3d4e.png",
+      "imagen": "https://i.pinimg.com/736x/a8/6b/88/a86b889c6e9f36a311f70a806549e1c3.jpg",
       "armas_permitidas": ["baston", "cetro", "grimorio"],
       "armas_por_nivel": {
         "1": "cetro_simple",
@@ -99,7 +99,7 @@
     "cazador": {
       "nombre": "Cazador",
       "descripcion": "DPS a distancia con críticos y precisión. Excelente para objetivos individuales.",
-      "imagen": "https://i.pinimg.com/originals/2b/8d/aa/2b8daa1c2d3e4f5a6b7c8d9e0f1a2b3c.png",
+      "imagen": "https://i.pinimg.com/736x/bf/70/47/bf7047ef3ff662d737500c00290c381d.jpg",
       "armas_permitidas": ["arco", "ballesta", "guadana"],
       "armas_por_nivel": {
         "1": "arco_corto",
@@ -123,7 +123,7 @@
     "picaro": {
       "nombre": "Pícaro",
       "descripcion": "Asesino veloz. Alta evasión, críticos y suerte para efectos especiales.",
-      "imagen": "https://i.pinimg.com/originals/1d/2e/3f/1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a.png",
+      "imagen": "https://i.pinimg.com/736x/6c/48/37/6c4837249643adcc5d99b2618c3551bc.jpg",
       "armas_permitidas": ["daga", "espada_corta", "arco_corto"],
       "armas_por_nivel": {
         "1": "daga_oxidada",
@@ -147,7 +147,7 @@
     "paladin": {
       "nombre": "Paladín",
       "descripcion": "Híbrido sagrado: aguanta, apoya y puede curar. Balanceado entre armadura y aura.",
-      "imagen": "https://i.pinimg.com/originals/aa/bb/cc/aabbccddeeff00112233445566778899.png",
+      "imagen": "https://i.pinimg.com/1200x/da/13/f5/da13f5e4f830b7cdc2abdb364dfab208.jpg",
       "armas_permitidas": ["espada", "maza", "cetro"],
       "armas_por_nivel": {
         "1": "maza_novicio",
@@ -171,7 +171,7 @@
     "nigromante": {
       "nombre": "Nigromante",
       "descripcion": "Magia oscura y desgaste. Gana por supervivencia y escalado de poder mágico.",
-      "imagen": "https://i.pinimg.com/originals/11/22/33/11223344556677889900aabbccddeeff.png",
+      "imagen": "https://i.pinimg.com/1200x/5e/2e/74/5e2e7405e93a111e25a442e197a3f13f.jpg",
       "armas_permitidas": ["grimorio", "baston", "daga_ritual"],
       "armas_por_nivel": {
         "1": "grimorio_huesos",
@@ -195,7 +195,7 @@
     "berserker": {
       "nombre": "Berserker",
       "descripcion": "Daño brutal a costa de control. Escala fuerte con ataque y crítico.",
-      "imagen": "https://i.pinimg.com/originals/44/55/66/44556677889900aabbccddeeff001122.png",
+      "imagen": "https://i.pinimg.com/736x/3d/1a/7b/3d1a7b311866bd7c1ade0ec806a23ba7.jpg",
       "armas_permitidas": ["hacha", "guadana", "martillo"],
       "armas_por_nivel": {
         "1": "hacha_astillada",
@@ -219,7 +219,7 @@
     "hechicero": {
       "nombre": "Hechicero",
       "descripcion": "Caster explosivo: mucho poder mágico y crítico mágico (vía probabilidad crítica).",
-      "imagen": "https://i.pinimg.com/originals/77/88/99/77889900aabbccddeeff001122334455.png",
+      "imagen": "https://i.pinimg.com/1200x/21/63/25/21632537c7e44c711dec14d060289062.jpg",
       "armas_permitidas": ["vara", "orbe", "grimorio"],
       "armas_por_nivel": {
         "1": "orbe_turbio",
@@ -243,7 +243,7 @@
     "monje": {
       "nombre": "Monje",
       "descripcion": "Combatiente ágil: evasión, bloqueo con manos/guanteletes y buena supervivencia.",
-      "imagen": "https://i.pinimg.com/originals/ab/cd/ef/abcdef0123456789abcdef0123456789.png",
+      "imagen": "https://i.pinimg.com/736x/07/21/a1/0721a18f65324b7f45dd84ef800016ee.jpg",
       "armas_permitidas": ["guanteletes", "baston_corto", "puños"],
       "armas_por_nivel": {
         "1": "vendajes",
@@ -267,7 +267,7 @@
     "ingeniero": {
       "nombre": "Ingeniero",
       "descripcion": "Táctico: trampas, gadgets y suerte. Escala con ataque y utilidad (aura/suerte).",
-      "imagen": "https://i.pinimg.com/originals/fe/dc/ba/fedcba9876543210fedcba9876543210.png",
+      "imagen": "https://i.pinimg.com/736x/67/fb/38/67fb38af93d64294b64fa5c3a679b92b.jpg",
       "armas_permitidas": ["rifle", "pistola", "llave_inglesa"],
       "armas_por_nivel": {
         "1": "pistola_chatarra",
