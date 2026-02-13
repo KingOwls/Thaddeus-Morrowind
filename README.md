@@ -58,8 +58,11 @@ Archivo `.env` en la raíz:
 
 En PowerShell:
 
-`cd  "D:\Thaddeus Morrowind" .\.venv\Scripts\Activate.ps1
-python -m src.bot.main`
+``` cmd
+cd "D:\Thaddeus Morrowind"
+.\.venv\Scripts\Activate.ps1
+python -m src.bot.main
+```
 
 ----------
 

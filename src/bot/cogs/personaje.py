@@ -340,31 +340,36 @@ def _add_to_acc(acc: Dict[str, float], key: str, value: float) -> None:
 
 
 def _collect_item_bonuses(item: Dict[str, Any]) -> Tuple[Dict[str, float], Dict[str, float]]:
-
     flat: Dict[str, float] = {}
     pct: Dict[str, float] = {}
 
     def apply_attr(attr: Dict[str, Any]) -> None:
         stat = attr.get("estadistica")
         tipo = attr.get("tipo")
-        val = float(attr.get("valor", 0))
+        val = attr.get("valor", 0)
 
+        if not stat or tipo not in {"plano", "porcentaje"}:
+            return
+
+        # ✅ Mapear mana al recurso real del personaje
         if stat == "mana":
             stat = "recurso.cantidad_maxima"
 
         if tipo == "plano":
-            _add_to_acc(flat, stat, val)
-        elif tipo == "porcentaje":
-            _add_to_acc(pct, stat, val)
+            _add_to_acc(flat, stat, float(val))
+        else:
+            _add_to_acc(pct, stat, float(val))
 
     if isinstance(item.get("atributo_principal"), dict):
         apply_attr(item["atributo_principal"])
 
+    # ✅ 4 substats
     for a in item.get("atributos_secundarios", [])[:4]:
         if isinstance(a, dict):
             apply_attr(a)
 
     return flat, pct
+
 
 
 
@@ -775,6 +780,22 @@ class PersonajeCog(commands.Cog):
         e.add_field(name="Stats (3)", value="\n\n".join(lines[12:]), inline=False)
         return e
 
+    def add_artefact_to_inventory(self, ch: Dict[str, Any], artefact: Dict[str, Any]) -> None:
+        inv = ch.setdefault("inventario", {})
+        inv.setdefault("artefactos", [])
+        inv["artefactos"].append(artefact)
+
+    def pop_artefact_from_inventory(self, ch: Dict[str, Any], artefact_id: str) -> Optional[Dict[str, Any]]:
+        inv = ch.get("inventario", {}).get("artefactos", [])
+        for i, a in enumerate(inv):
+            if isinstance(a, dict) and a.get("id") == artefact_id:
+                return inv.pop(i)
+        return None
+
+    def list_artefacts_inventory(self, ch: Dict[str, Any]) -> List[Dict[str, Any]]:
+        return [a for a in ch.get("inventario", {}).get("artefactos", []) if isinstance(a, dict)]
+
+
     # ============================================================
     # SLASH GROUPS
     # ============================================================
@@ -838,34 +859,6 @@ class PersonajeCog(commands.Cog):
         ch["equipamiento"]["artefactos"][slot] = item
         self.update_character(interaction.user.id, cname, ch)
         await interaction.response.send_message(f"✅ Artefacto equipado en **{slot}**.", ephemeral=True)
-
-    @pj.command(name="quitar_artefacto", description="Quita el artefacto de un slot.")
-    async def pj_quitar_artefacto(self, interaction: discord.Interaction, slot: str, nombre: Optional[str] = None):
-
-        if slot not in {"caliz", "moneda", "arma_artefacto", "baston"}:
-            await interaction.response.send_message("Slot inválido.", ephemeral=True)
-            return
-
-        ch, cname, err = self.must_get_character(interaction.user.id, nombre)
-        if err:
-            await interaction.response.send_message(err, ephemeral=True)
-            return
-
-        artefact = ch["equipamiento"]["artefactos"].get(slot)
-
-        if not artefact:
-            await interaction.response.send_message("No hay artefacto equipado en ese slot.", ephemeral=True)
-            return
-
-        # devolver al inventario
-        ch["inventario"]["artefactos"].append(artefact)
-
-        # limpiar slot
-        ch["equipamiento"]["artefactos"][slot] = None
-
-        self.update_character(interaction.user.id, cname, ch)
-
-        await interaction.response.send_message(f"✅ Artefacto devuelto al inventario desde **{slot}**.", ephemeral=True)
 
     @pj.command(name="quitar_arma", description="Quita el arma principal.")
     async def pj_quitar_arma(self, interaction: discord.Interaction, nombre: Optional[str] = None):
@@ -1112,22 +1105,6 @@ class PersonajeCog(commands.Cog):
         self.update_character(ctx.author.id, cname, ch)
         await ctx.send(f"✅ Artefacto equipado en **{slot}**.")
 
-    @pj_prefix.command(name="quitar_artefacto")
-    async def pj_prefix_quitar_artefacto(self, ctx: commands.Context, slot: str):
-        slot = slot.lower().strip()
-        if slot not in {"caliz", "moneda", "arma_artefacto", "baston"}:
-            await ctx.send("Slot inválido. Usa: caliz/moneda/arma_artefacto/baston")
-            return
-
-        ch, cname, err = self.must_get_character(ctx.author.id, None)
-        if err:
-            await ctx.send(err)
-            return
-        assert ch and cname
-
-        ch["equipamiento"]["artefactos"][slot] = None
-        self.update_character(ctx.author.id, cname, ch)
-        await ctx.send(f"✅ Quitado artefacto de **{slot}**.")
 
     @pj_prefix.command(name="equipar_arma")
     async def pj_prefix_equipar_arma(self, ctx: commands.Context, *, item_json: str):
@@ -1294,66 +1271,85 @@ class PersonajeCog(commands.Cog):
         _save_user(user.id, data)
         await ctx.send(f"✅ XP de **{nombre_personaje}** ahora es {ch['experiencia']}.")
 
-    @pj.command(name="roll_artefacto", description="Genera un artefacto aleatorio.")
-    async def pj_roll_artefacto(self, interaction: discord.Interaction, slot: str, rareza: int):
-        if slot not in {"baston","arma_artefacto","caliz","moneda"}:
-            await interaction.response.send_message("Slot inválido.", ephemeral=True)
-            return
-
-        rareza = max(1, min(5, rareza))
-
-        ch, cname, err = self.must_get_character(interaction.user.id, None)
-        if err:
-            await interaction.response.send_message(err, ephemeral=True)
-            return
-
-        artefact = generate_artefact(slot, rareza)
-
-        self.add_artefact_to_inventory(ch, artefact)
-        self.update_character(interaction.user.id, cname, ch)
-
-        await interaction.response.send_message(
-            f"🎲 Artefacto generado!\nID: `{artefact['id']}`\nSlot: {slot}\nRareza: {rareza}",
-            ephemeral=True
-        ) 
-
-    @pj.command(name="equipar_id", description="Equipa artefacto por ID.")
+    @pj.command(name="equipar_id", description="Equipa un artefacto por ID desde tu inventario.")
     async def pj_equipar_id(self, interaction: discord.Interaction, artefact_id: str, nombre: Optional[str] = None):
-
-        # 1) Cargar personaje (aquí nacen ch y cname)
         ch, cname, err = self.must_get_character(interaction.user.id, nombre)
         if err:
             await interaction.response.send_message(err, ephemeral=True)
             return
         assert ch and cname
 
-        # 2) Buscar en inventario
-        inv = ch.get("inventario", {}).get("artefactos", [])
-        artefact = next((a for a in inv if isinstance(a, dict) and a.get("id") == artefact_id), None)
-
+        artefact = self.pop_artefact_from_inventory(ch, artefact_id)
         if not artefact:
             await interaction.response.send_message("No existe ese ID en tu inventario.", ephemeral=True)
             return
 
-        slot = str(artefact.get("slot", "")).lower().strip()
-        if slot not in {"caliz", "moneda", "arma_artefacto", "baston"}:
+        slot = str(artefact.get("slot", "")).lower()
+        if slot not in {"caliz","moneda","arma_artefacto","baston"}:
             await interaction.response.send_message("Ese artefacto tiene un slot inválido.", ephemeral=True)
             return
 
-        # 3) Si ya hay uno equipado en ese slot, devuélvelo al inventario
-        currently = ch["equipamiento"]["artefactos"].get(slot)
-        if isinstance(currently, dict):
-            ch["inventario"]["artefactos"].append(currently)
+        # Si ya había algo equipado, vuelve al inventario
+        prev = ch.get("equipamiento", {}).get("artefactos", {}).get(slot)
+        if isinstance(prev, dict):
+            self.add_artefact_to_inventory(ch, prev)
 
-        # 4) Equipar: mover del inventario al equipamiento
         ch["equipamiento"]["artefactos"][slot] = artefact
-        ch["inventario"]["artefactos"] = [a for a in inv if not (isinstance(a, dict) and a.get("id") == artefact_id)]
-
-        # 5) Guardar
         self.update_character(interaction.user.id, cname, ch)
 
-        await interaction.response.send_message(f"✅ Equipado en **{slot}**.", ephemeral=True)
+        await interaction.response.send_message(f"✅ Equipado `{artefact_id}` en **{slot}**.", ephemeral=True)
 
+    @pj_prefix.command(name="equipar_id")
+    async def pj_prefix_equipar_id(self, ctx: commands.Context, artefact_id: str, nombre: Optional[str] = None):
+        ch, cname, err = self.must_get_character(ctx.author.id, nombre)
+        if err:
+            await ctx.send(err)
+            return
+        assert ch and cname
+
+        artefact = self.pop_artefact_from_inventory(ch, artefact_id)
+        if not artefact:
+            await ctx.send("No existe ese ID en tu inventario.")
+            return
+
+        slot = str(artefact.get("slot", "")).lower()
+        if slot not in {"caliz","moneda","arma_artefacto","baston"}:
+            await ctx.send("Ese artefacto tiene un slot inválido.")
+            return
+
+        prev = ch.get("equipamiento", {}).get("artefactos", {}).get(slot)
+        if isinstance(prev, dict):
+            self.add_artefact_to_inventory(ch, prev)
+
+        ch["equipamiento"]["artefactos"][slot] = artefact
+        self.update_character(ctx.author.id, cname, ch)
+
+        await ctx.send(f"✅ Equipado `{artefact_id}` en **{slot}**.")
+
+    @pj.command(name="quitar_artefacto", description="Quita el artefacto de un slot y lo devuelve al inventario.")
+    @app_commands.describe(slot="caliz|moneda|arma_artefacto|baston")
+    async def pj_quitar_artefacto(self, interaction: discord.Interaction, slot: str, nombre: Optional[str] = None):
+        slot = slot.lower().strip()
+        if slot not in {"caliz","moneda","arma_artefacto","baston"}:
+            await interaction.response.send_message("Slot inválido.", ephemeral=True)
+            return
+
+        ch, cname, err = self.must_get_character(interaction.user.id, nombre)
+        if err:
+            await interaction.response.send_message(err, ephemeral=True)
+            return
+        assert ch and cname
+
+        current = ch["equipamiento"]["artefactos"].get(slot)
+        if not isinstance(current, dict):
+            await interaction.response.send_message("No tienes nada equipado en ese slot.", ephemeral=True)
+            return
+
+        self.add_artefact_to_inventory(ch, current)
+        ch["equipamiento"]["artefactos"][slot] = None
+        self.update_character(interaction.user.id, cname, ch)
+
+        await interaction.response.send_message(f"✅ Artefacto quitado de **{slot}** y devuelto al inventario.", ephemeral=True)
 
 
     @pjstaff_prefix.command(name="crear_para")
@@ -1402,6 +1398,70 @@ class PersonajeCog(commands.Cog):
         artefacts.append(artefact)
         inv["artefactos"] = artefacts
         ch["inventario"] = inv
+    
+    @pj.command(name="roll_artefacto", description="Genera un artefacto aleatorio y lo guarda en inventario.")
+    @app_commands.describe(slot="baston|arma_artefacto|caliz|moneda", rareza="1-5")
+    async def pj_roll_artefacto(self, interaction: discord.Interaction, slot: str, rareza: int, nombre: Optional[str] = None):
+        slot = slot.lower().strip()
+        if slot not in {"baston","arma_artefacto","caliz","moneda"}:
+            await interaction.response.send_message("Slot inválido.", ephemeral=True)
+            return
+        rareza = max(1, min(5, int(rareza)))
+
+        ch, cname, err = self.must_get_character(interaction.user.id, nombre)
+        if err:
+            await interaction.response.send_message(err, ephemeral=True)
+            return
+        assert ch and cname
+
+        artefact = generate_artefact(slot, rareza)
+        self.add_artefact_to_inventory(ch, artefact)
+        self.update_character(interaction.user.id, cname, ch)
+
+        await interaction.response.send_message(
+            f"🎲 Artefacto generado y guardado en inventario.\n"
+            f"ID: `{artefact['id']}` | Slot: **{artefact['slot']}** | Rareza: **{artefact['rareza']}**",
+            ephemeral=True
+        )
+    
+    @pj_prefix.command(name="roll_artefacto")
+    async def pj_prefix_roll_artefacto(self, ctx: commands.Context, slot: str, rareza: int, nombre: Optional[str] = None):
+        slot = slot.lower().strip()
+        if slot not in {"baston","arma_artefacto","caliz","moneda"}:
+            await ctx.send("Slot inválido. Usa: baston/arma_artefacto/caliz/moneda")
+            return
+        rareza = max(1, min(5, int(rareza)))
+
+        ch, cname, err = self.must_get_character(ctx.author.id, nombre)
+        if err:
+            await ctx.send(err)
+            return
+        assert ch and cname
+
+        artefact = generate_artefact(slot, rareza)
+        self.add_artefact_to_inventory(ch, artefact)
+        self.update_character(ctx.author.id, cname, ch)
+
+        await ctx.send(f"🎲 Artefacto generado. ID `{artefact['id']}` (slot {artefact['slot']} R{artefact['rareza']})")
+
+    @pj_prefix.command(name="inv_artefactos")
+    async def pj_prefix_inv_artefactos(self, ctx: commands.Context, nombre: Optional[str] = None):
+        ch, cname, err = self.must_get_character(ctx.author.id, nombre)
+        if err:
+            await ctx.send(err)
+            return
+        assert ch and cname
+
+        artefacts = self.list_artefacts_inventory(ch)
+        if not artefacts:
+            await ctx.send("No tienes artefactos en inventario.")
+            return
+
+        lines = []
+        for a in artefacts[:20]:
+            lines.append(f"- `{a.get('id')}` | **{a.get('slot')}** | R{a.get('rareza')} | {a.get('nombre')}")
+        await ctx.send("🎒 **Artefactos en inventario**:\n" + "\n".join(lines))
+
 
 
 

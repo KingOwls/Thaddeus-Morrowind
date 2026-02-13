@@ -15,8 +15,8 @@ MAIN_TYPES = {
     "moneda": (["evasion","suerte","aura","inmortalidad","bloqueo","mana"], "mixed")
 }
 
-RARITY_MAIN_MULT = {1:1.00, 2:1.20, 3:1.40, 4:1.60, 5:1.80}
-RARITY_SUB_MULT  = {1:1.00, 2:1.15, 3:1.30, 4:1.45, 5:1.60}
+RARITY_MAIN_MULT = {1:1.00, 2:1.30, 3:1.60, 4:1.90, 5:2.30}
+RARITY_SUB_MULT  = {1:1.00, 2:1.20, 3:1.40, 4:1.60, 5:1.85}
 
 BASE_MAIN = {
     ("vida","plano"): 120,
