@@ -2,7 +2,7 @@
   "schema_version": 1,
   "meta": {
     "type": "materiales",
-    "regions": ["Arcano", "Bestia", "Costa", "Montaña", "Desierto", "Umbra"]
+    "regions": ["Arcano", "Bestia", "Costa", "Montaña", "Desierto", "Umbra", "Sin Region"]
   },
   "items": {
     "mat_mena_hierro_001": {

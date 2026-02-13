@@ -1,32 +1,105 @@
 ﻿{
-  "schema_version": 1,
+  "schema_version": 2,
   "meta": {
     "type": "artefactos",
-    "slots": ["caliz", "moneda", "arma_artefacto", "baston"],
-    "regions": ["Arcano", "Bestia", "Costa", "Montaña", "Desierto", "Umbra"]
+    "slots": ["caliz", "moneda", "arma_artefacto", "baston"]
   },
-  "items": {
-    "art_caliz_001": {
-      "id": "art_caliz_001",
-      "nombre": "Cáliz Vacío",
-      "descripcion": "Artefacto simple con atributos básicos.",
-      "tipo": "Artefacto",
-      "subtipos": [],
-      "rareza": 1,
-      "region": "Arcano",
-      "profesiones": ["Alquimista"],
-      "tags": ["soporte"],
-      "stack": { "apilable": false, "max_stack": 1 },
-      "trade": { "vendible": true, "precio_base": 80 },
-      "artefacto": {
-        "slot": "caliz",
-        "atributo_principal": { "estadistica": "vida", "tipo": "plano", "valor": 25 },
-        "atributos_secundarios": [
-          { "estadistica": "ataque", "tipo": "plano", "valor": 2 },
-          { "estadistica": "probabilidad_critica", "tipo": "porcentaje", "valor": 0.01 },
-          { "estadistica": "evasion", "tipo": "porcentaje", "valor": 0.02 }
+  "rules": {
+    "allowed_secondary_stats_common": [
+      "vida",
+      "ataque",
+      "poder_magico",
+      "armadura",
+      "resistencia_magica",
+      "probabilidad_critica",
+      "danio_critico"
+    ],
+    "slot_rules": {
+      "baston": {
+        "main": { "stat": "vida", "tipo": "plano" },
+        "secondary_count": 4,
+        "forbidden_secondary": ["vida:plano"]
+      },
+      "arma_artefacto": {
+        "main": { "stat": ["ataque", "poder_magico"], "tipo": "plano" },
+        "secondary_count": 4,
+        "forbidden_secondary": ["ataque:plano", "poder_magico:plano"]
+      },
+      "caliz": {
+        "main": {
+          "stat": [
+            "vida",
+            "ataque",
+            "poder_magico",
+            "armadura",
+            "resistencia_magica",
+            "probabilidad_critica",
+            "danio_critico"
+          ],
+          "tipo": "porcentaje"
+        },
+        "secondary_count": 4,
+        "forbidden_secondary_if_main_same_stat": true
+      },
+      "moneda": {
+        "main": { "stat": ["evasion", "suerte", "aura", "inmortalidad", "bloqueo", "mana"], "tipo": "mixed" },
+        "secondary_count": 4,
+        "secondary_pool": [
+          "vida",
+          "ataque",
+          "poder_magico",
+          "armadura",
+          "resistencia_magica",
+          "probabilidad_critica",
+          "danio_critico"
         ]
       }
+    },
+    "rarity_scaling": {
+      "mult_main": { "1": 1.00, "2": 1.20, "3": 1.40, "4": 1.60, "5": 1.80 },
+      "mult_sub":  { "1": 1.00, "2": 1.15, "3": 1.30, "4": 1.45, "5": 1.60 }
+    },
+    "roll_chances": {
+      "secondary_tipo_weights": { "plano": 0.55, "porcentaje": 0.45 }
+    }
+  },
+  "base_values": {
+    "main": {
+      "vida_plano": 120,
+      "ataque_plano": 12,
+      "poder_magico_plano": 10,
+
+      "vida_pct": 0.08,
+      "ataque_pct": 0.06,
+      "poder_magico_pct": 0.06,
+      "armadura_pct": 0.07,
+      "resistencia_magica_pct": 0.07,
+      "probabilidad_critica_pct": 0.03,
+      "danio_critico_pct": 0.06,
+
+      "evasion_pct": 0.06,
+      "suerte_pct": 0.06,
+      "aura_pct": 0.06,
+      "inmortalidad_pct": 0.03,
+      "bloqueo_pct": 0.03,
+      "mana_plano": 25
+    },
+    "sub": {
+      "vida_plano": 30,
+      "ataque_plano": 3,
+      "poder_magico_plano": 3,
+      "armadura_plano": 4,
+      "resistencia_magica_plano": 4,
+
+      "vida_pct": 0.03,
+      "ataque_pct": 0.02,
+      "poder_magico_pct": 0.02,
+      "armadura_pct": 0.025,
+      "resistencia_magica_pct": 0.025,
+      "probabilidad_critica_pct": 0.01,
+      "danio_critico_pct": 0.02,
+
+      "mana_plano": 8
     }
   }
 }
